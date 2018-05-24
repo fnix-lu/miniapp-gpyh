@@ -28,6 +28,13 @@
 }
 .datainfo {
   margin-top: -60rpx;
+  display: flex;
+  padding: 30rpx 0;
+}
+.datainfo-item {
+  flex-grow: 1;
+  text-align: center;
+  position: relative;
 }
 .datainfo-item::before {
   content: '';
