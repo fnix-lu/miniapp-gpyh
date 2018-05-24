@@ -1,0 +1,31 @@
+/* 全局样式 */
+page {
+  background: #eee;
+  font-size: 24rpx;
+  color: #666;
+}
+.container {
+  overflow-x: hidden;
+}
+.bold {
+  font-weight: bold;
+}
+.f20 {
+  font-size: 20rpx;
+}
+.m20-x {
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+.bc-white {
+  background-color: #fff;
+}
+.arrow {
+  width: 24rpx;
+  height: 24rpx;
+}
+.content-block {
+  border-radius: 10rpx;
+  overflow: hidden;
+  margin-bottom: 20rpx;
+}
