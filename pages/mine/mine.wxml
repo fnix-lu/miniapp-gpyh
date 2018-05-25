@@ -34,4 +34,6 @@
     </navigator>
   </view>
   <menu-block options="{{ menuOrder }}" />
+  <menu-block options="{{ menuFinance }}" />
+  <menu-list />
 </view>

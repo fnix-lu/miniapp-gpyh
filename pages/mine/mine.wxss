@@ -27,7 +27,7 @@
   color: #fff;
 }
 .datainfo {
-  margin-top: -60rpx;
+  margin-top: -36rpx;
   display: flex;
   padding: 30rpx 0;
 }

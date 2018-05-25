@@ -1,0 +1,12 @@
+<view class="menu-list bc-white">
+  <navigator class="item item-first">
+    <text>收货地址</text>
+    <text>0000-00000000</text>
+    <image class="arrow" src="../../img/arrow/right.png" />
+  </navigator>
+  <navigator class="item item-first">
+    <text>收货地址</text>
+    <text>0000-00000000</text>
+    <image class="arrow" src="../../img/arrow/right.png" />
+  </navigator>
+</view>

@@ -1,0 +1,15 @@
+@import "../../app.wxss";
+
+.menu-list {
+  padding: 0 15rpx;
+}
+.item {
+  height: 78rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-top: 1px solid #ccc;
+}
+.item-first {
+  border-top: none;
+}

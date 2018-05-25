@@ -9,7 +9,7 @@
   <view class="block-body">
     <navigator class="item item-1-{{ options.column }}" wx:for="{{ options.list }}" url="{{ item.url }}">
       <image class="menu-img" src="{{ item.icon }}" />
-      <view>{{ item.text }}{{ _getColumnClass(options.column) }}</view>
+      <view>{{ item.text }}</view>
     </navigator>
   </view>
 </view>
