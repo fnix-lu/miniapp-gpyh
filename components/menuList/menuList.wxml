@@ -1,12 +1,7 @@
-<view class="menu-list bc-white">
-  <navigator class="item item-first">
-    <text>收货地址</text>
-    <text>0000-00000000</text>
-    <image class="arrow" src="../../img/arrow/right.png" />
-  </navigator>
-  <navigator class="item item-first">
-    <text>收货地址</text>
-    <text>0000-00000000</text>
-    <image class="arrow" src="../../img/arrow/right.png" />
+<view class="content-block m20-x menu-list bc-white">
+  <navigator class="item {{ index === 0 ? 'item-first' : '' }}" wx:for="{{ list }}">
+    <text>{{ item.name }}</text>
+    <image class="arrow" src="../../assets/img/arrow/right.png"  wx:if="{{ item.isLink }}" />
+    <text class="item-content" wx:else>{{ item.content }}</text>
   </navigator>
 </view>

@@ -29,19 +29,19 @@
   <view class="entrance bc-white">
     <navigator class="entrance-item">
       <view class="entrance-item-imgbox imgbox-member">
-        <image class="entrance-item-img" src="../../img/entrance/member_shop.png" />
+        <image class="entrance-item-img" src="../../assets/img/entrance/member_shop.png" />
       </view>
       <text class="entrance-item-txt">畅购商城</text>
     </navigator>
     <navigator class="entrance-item">
       <view class="entrance-item-imgbox imgbox-tool">
-        <image class="entrance-item-img" src="../../img/entrance/tool_shop.png" />
+        <image class="entrance-item-img" src="../../assets/img/entrance/tool_shop.png" />
       </view>
       <text class="entrance-item-txt">工具商城</text>
     </navigator>
     <navigator class="entrance-item">
       <view class="entrance-item-imgbox imgbox-fastener">
-        <image class="entrance-item-img" src="../../img/entrance/fastener_shop.png" />
+        <image class="entrance-item-img" src="../../assets/img/entrance/fastener_shop.png" />
       </view>
       <text class="entrance-item-txt">紧固件商城</text>
     </navigator>
@@ -54,15 +54,15 @@
     <view class="section-title">工具分类</view>
     <view class="section-list">
       <view class="section-item">
-        <image class="section-item-img" src="../../img/base/gpyh.png" />
+        <image class="section-item-img" src="../../assets/img/base/gpyh.png" />
         <text class="section-item-txt">手动工具</text>
       </view>
       <view class="section-item">
-        <image class="section-item-img" src="../../img/base/gpyh.png" />
+        <image class="section-item-img" src="../../assets/img/base/gpyh.png" />
         <text class="section-item-txt">电动工具</text>
       </view>
       <view class="section-item">
-        <image class="section-item-img" src="../../img/base/gpyh.png" />
+        <image class="section-item-img" src="../../assets/img/base/gpyh.png" />
         <text class="section-item-txt">气动工具</text>
       </view>
     </view>
@@ -71,39 +71,39 @@
     <view class="section-title">紧固件分类</view>
     <view class="section-list">
       <view class="section-item">
-        <image class="section-item-img" src="../../img/base/gpyh.png" />
+        <image class="section-item-img" src="../../assets/img/base/gpyh.png" />
         <text class="section-item-txt">螺栓</text>
       </view>
       <view class="section-item">
-        <image class="section-item-img" src="../../img/base/gpyh.png" />
+        <image class="section-item-img" src="../../assets/img/base/gpyh.png" />
         <text class="section-item-txt">螺母</text>
       </view>
       <view class="section-item">
-        <image class="section-item-img" src="../../img/base/gpyh.png" />
+        <image class="section-item-img" src="../../assets/img/base/gpyh.png" />
         <text class="section-item-txt">垫圈</text>
       </view>
       <view class="section-item">
-        <image class="section-item-img" src="../../img/base/gpyh.png" />
+        <image class="section-item-img" src="../../assets/img/base/gpyh.png" />
         <text class="section-item-txt">组合螺丝</text>
       </view>
       <view class="section-item">
-        <image class="section-item-img" src="../../img/base/gpyh.png" />
+        <image class="section-item-img" src="../../assets/img/base/gpyh.png" />
         <text class="section-item-txt">铆接类</text>
       </view>
       <view class="section-item">
-        <image class="section-item-img" src="../../img/base/gpyh.png" />
+        <image class="section-item-img" src="../../assets/img/base/gpyh.png" />
         <text class="section-item-txt">螺钉</text>
       </view>
       <view class="section-item">
-        <image class="section-item-img" src="../../img/base/gpyh.png" />
+        <image class="section-item-img" src="../../assets/img/base/gpyh.png" />
         <text class="section-item-txt">紧定</text>
       </view>
       <view class="section-item">
-        <image class="section-item-img" src="../../img/base/gpyh.png" />
+        <image class="section-item-img" src="../../assets/img/base/gpyh.png" />
         <text class="section-item-txt">钻尾</text>
       </view>
       <view class="section-item">
-        <image class="section-item-img" src="../../img/base/gpyh.png" />
+        <image class="section-item-img" src="../../assets/img/base/gpyh.png" />
         <text class="section-item-txt">膨胀系列</text>
       </view>
     </view>

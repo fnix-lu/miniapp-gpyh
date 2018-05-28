@@ -1,20 +1,32 @@
 <view class="container">
-  <view class="info-preview">
-    <view class="operation-bar"></view>
-    <view class="head-imgbox">
-      <image class="head-img" src="../../img/base/gpyh.png" />
-      <navigator>开通畅购会员</navigator>
+  <view class="info-preview" wx:if="{{ false }}">
+    <view class="operation-bar">
+      <navigator class="setting">
+        <image class="setting-img" src="../../assets/img/mine/setting.png" />
+      </navigator>
     </view>
-    <view class="info-txtbox">
-      <view>用户名</view>
-      <view>手机号</view>
-      <view>等级与成长值</view>
-    </view>
-    <view>
-      <view>签到</view>
-      <view>抽奖</view>
+    <view class="info-block">
+      <view class="head-imgbox">
+        <image class="head-img" src="../../assets/img/base/gpyh.png" />
+        <navigator class="info-member f20">开通畅购会员</navigator>
+      </view>
+      <view class="info-txtbox">
+        <view class="info-username">UserName</view>
+        <view>
+          <view class="info-item"><image class="info-icon" src="../../assets/img/mine/phone.png" />15600000001</view>
+        </view>
+        <view class="info-row">
+          <view class="info-item"><image class="info-icon" src="../../assets/img/mine/medal.png" />铜牌</view>
+          <view class="info-item" style="margin-left: 35rpx;">成长值：9999999</view>
+        </view>
+      </view>
+      <view class="other">
+        <navigator class="other-nav"><image class="info-icon" style="margin-right: 12rpx;" src="../../assets/img/mine/calendar.png" />签到</navigator>
+        <navigator class="other-nav"><image class="info-icon" style="margin-right: 12rpx;" src="../../assets/img/mine/award.png" />抽奖</navigator>
+      </view>
     </view>
   </view>
+  <view class="not-login" wx:else><navigator class="to-log-reg" url="/pages/login/login">登录/注册</navigator></view>
   <view class="content-block bc-white m20-x datainfo">
     <navigator class="datainfo-item">
       <view>199</view>
@@ -35,5 +47,5 @@
   </view>
   <menu-block options="{{ menuOrder }}" />
   <menu-block options="{{ menuFinance }}" />
-  <menu-list />
+  <menu-list list="{{ menuList }}" />
 </view>

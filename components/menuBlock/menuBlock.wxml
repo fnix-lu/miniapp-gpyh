@@ -3,7 +3,7 @@
     <text>{{ options.title }}</text>
     <navigator class="block-more f20" url="{{ options.link.url }}">
       <text>{{ options.link.text }}</text>
-      <image class="arrow" src="../../img/arrow/right.png" />
+      <image class="arrow" src="../../assets/img/arrow/right.png" />
     </navigator>
   </view>
   <view class="block-body">

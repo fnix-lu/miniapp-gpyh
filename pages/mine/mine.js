@@ -14,23 +14,23 @@ Page({
       list: [
         {
           text: '待付款',
-          icon: '../../img/mine/m1.png',
+          icon: '../../assets/img/mine/m1.png',
           url: ''
         }, {
           text: '待发货',
-          icon: '../../img/mine/m2.png',
+          icon: '../../assets/img/mine/m2.png',
           url: ''
         }, {
           text: '已发货',
-          icon: '../../img/mine/m3.png',
+          icon: '../../assets/img/mine/m3.png',
           url: ''
         }, {
           text: '退款/售后',
-          icon: '../../img/mine/m4.png',
+          icon: '../../assets/img/mine/m4.png',
           url: ''
         }, {
           text: '送货单',
-          icon: '../../img/mine/m5.png',
+          icon: '../../assets/img/mine/m5.png',
           url: ''
         }
       ]
@@ -45,25 +45,46 @@ Page({
       list: [
         {
           text: '预付款',
-          icon: '../../img/mine/m6.png',
+          icon: '../../assets/img/mine/m6.png',
           url: ''
         }, {
           text: '订单对账',
-          icon: '../../img/mine/m7.png',
+          icon: '../../assets/img/mine/m7.png',
           url: ''
         }, {
           text: '工品券',
-          icon: '../../img/mine/m8.png',
+          icon: '../../assets/img/mine/m8.png',
           url: ''
         }, {
           text: '申请开票',
-          icon: '../../img/mine/m9.png',
+          icon: '../../assets/img/mine/m9.png',
           url: ''
         }
       ]
     },
-    menuList: {
-    }
+    menuList: [
+      {
+        name: '收货地址',
+        isLink: true,
+        content: ''
+      }, {
+        name: '发票信息',
+        isLink: true,
+        content: ''
+      }, {
+        name: '售后服务',
+        isLink: true,
+        content: ''
+      }, {
+        name: '客服热线',
+        isLink: false,
+        content: '0000-00000001'
+      }, {
+        name: '建议反馈',
+        isLink: true,
+        content: ''
+      }
+    ]
   },
 
   /**

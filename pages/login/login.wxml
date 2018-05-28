@@ -1,0 +1,18 @@
+<view class="container">
+  <image class="bg-login" src="../../assets/img/base/login.png" />
+  <view class="login-container">
+    <view class="login-content">
+      <view class="login-row"><image class="head-img" src="../../assets/img/base/gpyh.png" /></view>
+      <view class="login-row"><input class="bc-white login-input" type="text" placeholder="请输入用户名/手机号" /></view>
+      <view class="error">sdada</view>
+      <view class="login-row"><input class="bc-white login-input" type="text" placeholder="请输入登录密码" password /></view>
+      <view class="error"></view>
+      <view class="login-row"><button class="btn-default">登录</button></view>
+      <view class="login-row" style="margin: 20rpx 0;">
+        <navigator class="forget-pwd">忘记密码</navigator>
+        <navigator class="free-reg">免费注册</navigator>
+      </view>
+    </view>
+  </view>
+</view>
+<!-- <web-view src="https://m.gpyh.com/chineseScrew/goTakeAwardPage?awardCode=G6d78QFCmL2noD9&sign=bf61ba90a2fe62a6b1bba3a8935cc4e6"></web-view> -->

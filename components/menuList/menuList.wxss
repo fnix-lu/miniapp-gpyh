@@ -8,8 +8,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-top: 1px solid #ccc;
+  border-top: 1rpx solid #ccc;
+  padding-left: 30rpx;
+  padding-right: 15rpx;
 }
 .item-first {
   border-top: none;
+}
+.item-content {
+  color: #00913a;
 }
