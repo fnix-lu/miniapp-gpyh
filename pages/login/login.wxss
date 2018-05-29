@@ -29,11 +29,12 @@
   border: 10rpx solid #2f94e4;
   border-radius: 50%;
   display: block;
-  margin: -160rpx auto 50rpx;
+  margin: -140rpx auto 50rpx;
   background: #fff;
 }
 .error {
   padding: 15rpx 30rpx;
+  color: #ff2a2a;
 }
 .login-input {
   height: 80rpx;

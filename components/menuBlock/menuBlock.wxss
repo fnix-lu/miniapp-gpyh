@@ -27,6 +27,19 @@
   width: 44rpx;
   height: 44rpx;
 }
+.badge {
+  display: inline-block;
+  line-height: 26rpx;
+  background: #ff651f;
+  color: #fff;
+  height: 26rpx;
+  border-radius: 13rpx;
+  padding: 0 8rpx;
+  min-width: 10rpx;
+  position: absolute;
+  top: -8rpx;
+  left: 78rpx;
+}
 .item-1-4 {
   flex-basis: 25%;
 }

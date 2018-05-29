@@ -10,6 +10,7 @@
     <navigator class="item item-1-{{ options.column }}" wx:for="{{ options.list }}" url="{{ item.url }}">
       <image class="menu-img" src="{{ item.icon }}" />
       <view>{{ item.text }}</view>
+      <text class="badge" wx:if="{{ item.badge }}">{{ item.badge }}</text>
     </navigator>
   </view>
 </view>

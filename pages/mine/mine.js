@@ -15,7 +15,8 @@ Page({
         {
           text: '待付款',
           icon: '../../assets/img/mine/m1.png',
-          url: ''
+          url: '',
+          badge: 99
         }, {
           text: '待发货',
           icon: '../../assets/img/mine/m2.png',
@@ -23,7 +24,8 @@ Page({
         }, {
           text: '已发货',
           icon: '../../assets/img/mine/m3.png',
-          url: ''
+          url: '',
+          badge: 1
         }, {
           text: '退款/售后',
           icon: '../../assets/img/mine/m4.png',
