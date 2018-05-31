@@ -1,14 +1,15 @@
-.container {
-  padding: 55rpx 70rpx;
-}
+/* pages/register/register.wxss */
 .row {
-  margin-bottom: 30rpx;
   border: 1rpx solid #ccc;
   border-radius: 8rpx;
   height: 78rpx;
   display: flex;
   align-items: center;
   overflow: hidden;
+}
+.error {
+  padding: 15rpx 30rpx;
+  color: #ff2a2a;
 }
 .input {
   height: 100%;
@@ -64,4 +65,7 @@
 .to-home::after,
 .to-login::after {
   border: none;
+}
+.picker-region {
+  flex-grow: 1;
 }

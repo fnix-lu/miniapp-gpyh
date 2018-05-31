@@ -1,25 +1,65 @@
 /* 全局样式 */
-page {
-  background: #eee;
-  font-size: 24rpx;
-  color: #666;
-}
 .container {
-  overflow-x: hidden;
+  background: #eee;
+  color: #666;
+  font-size: 24rpx;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  box-sizing: border-box;
 }
+
+
 .bold {
   font-weight: bold;
 }
-.f20 {
-  font-size: 20rpx;
+
+
+.f28 {
+  font-size: 28rpx;
 }
+
+
+.left {
+  text-align: left;
+}
+.center {
+  text-align: center;
+}
+.right {
+  text-align: right;
+}
+
+
 .m20-x {
   margin-left: 20rpx;
   margin-right: 20rpx;
 }
+
+
 .bc-white {
   background-color: #fff;
 }
+
+
+.btn-primary {
+  background: #0068b7;
+  color: #fff;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 28rpx;
+}
+.btn-default {
+  background: #eee;
+  color: #0068b7;
+  height: 80rpx;
+  line-height: 80rpx;
+  font-size: 28rpx;
+}
+
+
 .arrow {
   width: 24rpx;
   height: 24rpx;
@@ -28,11 +68,4 @@ page {
   border-radius: 10rpx;
   overflow: hidden;
   margin-bottom: 20rpx;
-}
-.btn-default {
-  background: #0068b7;
-  color: #fff;
-  height: 80rpx;
-  line-height: 80rpx;
-  font-size: 28rpx;
 }

@@ -1,111 +1,129 @@
-<view class="container">
-  <swiper indicator-dots
-          indicator-color="rgba(255,255,255,.5)"
-          indicator-active-color="#f18f2b"
-          autoplay
-          circular
-          interval="3000">
-    <swiper-item>
-      <image class="slider-img" src="https://p1.gpyh.com/webnew/img/banner/4/67f30bea-e6ae-4433-889f-4d97a602c011.jpg" mode="aspectFill" />
-    </swiper-item>
-    <swiper-item>
-      <image class="slider-img" src="https://p3.gpyh.com/webnew/img/banner/4/a4a0a52e-f31f-44cf-9857-fe368100f1b6.jpg" mode="aspectFill" />
-    </swiper-item>
-  </swiper>
-  <view class="notice">
-    <swiper class="notice-swiper"
-            vertical
+<scroll-view class="container">
+  <view class="top-search">
+    <image class="bg-search" src="../../assets/img/base/top_search.png" />
+    <view class="top-search-inner m20-x">
+      <view class="curr-city-box">
+        <image class="location-icon" src="../../assets/img/base/location.png" />
+        <text class="curr-city">梅里斯达斡尔族区</text>
+      </view>
+      <navigator class="search-box bc-white" url="../../pages/list/list">
+        <image class="search-icon" src="../../assets/img/base/search.png" />
+        <input class="search-input" placeholder="搜索" disabled />
+      </navigator>
+      <view class="scan">
+        <image class="scan-icon" src="../../assets/img/base/scan.png" />
+      </view>
+    </view>
+  </view>
+  <scroll-view class="index-scroll" scroll-y>
+    <swiper indicator-dots
+            indicator-color="rgba(255,255,255,.5)"
+            indicator-active-color="#f18f2b"
             autoplay
-            circular>
+            circular
+            interval="3000">
       <swiper-item>
-        <navigator>【新品】博世电动工具，让科技成就生活之美！</navigator>
+        <image class="slider-img" src="https://p1.gpyh.com/webnew/img/banner/4/67f30bea-e6ae-4433-889f-4d97a602c011.jpg" mode="aspectFill" />
       </swiper-item>
       <swiper-item>
-        <navigator>【公告】公告标题！</navigator>
+        <image class="slider-img" src="https://p3.gpyh.com/webnew/img/banner/4/a4a0a52e-f31f-44cf-9857-fe368100f1b6.jpg" mode="aspectFill" />
       </swiper-item>
     </swiper>
-    <navigator class="notice-more">更多 >></navigator>
-  </view>
-  <view class="entrance bc-white">
-    <navigator class="entrance-item">
-      <view class="entrance-item-imgbox imgbox-member">
-        <image class="entrance-item-img" src="../../assets/img/entrance/member_shop.png" />
-      </view>
-      <text class="entrance-item-txt">畅购商城</text>
-    </navigator>
-    <navigator class="entrance-item">
-      <view class="entrance-item-imgbox imgbox-tool">
-        <image class="entrance-item-img" src="../../assets/img/entrance/tool_shop.png" />
-      </view>
-      <text class="entrance-item-txt">工具商城</text>
-    </navigator>
-    <navigator class="entrance-item">
-      <view class="entrance-item-imgbox imgbox-fastener">
-        <image class="entrance-item-img" src="../../assets/img/entrance/fastener_shop.png" />
-      </view>
-      <text class="entrance-item-txt">紧固件商城</text>
-    </navigator>
-  </view>
-  <view class="contact">
-    <text>客服热线：0000-00000000</text>
-    <text>QQ客服：0000000000</text>
-  </view>
-  <view class="section bc-white">
-    <view class="section-title">工具分类</view>
-    <view class="section-list">
-      <view class="section-item">
-        <image class="section-item-img" src="../../assets/img/base/gpyh.png" />
-        <text class="section-item-txt">手动工具</text>
-      </view>
-      <view class="section-item">
-        <image class="section-item-img" src="../../assets/img/base/gpyh.png" />
-        <text class="section-item-txt">电动工具</text>
-      </view>
-      <view class="section-item">
-        <image class="section-item-img" src="../../assets/img/base/gpyh.png" />
-        <text class="section-item-txt">气动工具</text>
+    <view class="notice">
+      <swiper class="notice-swiper"
+              vertical
+              autoplay
+              circular>
+        <swiper-item>
+          <navigator>【新品】博世电动工具，让科技成就生活之美！</navigator>
+        </swiper-item>
+        <swiper-item>
+          <navigator>【公告】公告标题！</navigator>
+        </swiper-item>
+      </swiper>
+      <navigator class="notice-more">更多 >></navigator>
+    </view>
+    <view class="entrance bc-white">
+      <navigator class="entrance-item">
+        <view class="entrance-item-imgbox imgbox-member">
+          <image class="entrance-item-img" src="../../assets/img/entrance/member_shop.png" />
+        </view>
+        <text class="entrance-item-txt">畅购商城</text>
+      </navigator>
+      <navigator class="entrance-item">
+        <view class="entrance-item-imgbox imgbox-tool">
+          <image class="entrance-item-img" src="../../assets/img/entrance/tool_shop.png" />
+        </view>
+        <text class="entrance-item-txt">工具商城</text>
+      </navigator>
+      <navigator class="entrance-item">
+        <view class="entrance-item-imgbox imgbox-fastener">
+          <image class="entrance-item-img" src="../../assets/img/entrance/fastener_shop.png" />
+        </view>
+        <text class="entrance-item-txt">紧固件商城</text>
+      </navigator>
+    </view>
+    <view class="contact">
+      <text>客服热线：0000-00000000</text>
+      <text>QQ客服：0000000000</text>
+    </view>
+    <view class="section bc-white">
+      <view class="section-title">工具分类</view>
+      <view class="section-list">
+        <view class="section-item">
+          <image class="section-item-img" src="../../assets/img/base/gpyh.png" />
+          <text class="section-item-txt">手动工具</text>
+        </view>
+        <view class="section-item">
+          <image class="section-item-img" src="../../assets/img/base/gpyh.png" />
+          <text class="section-item-txt">电动工具</text>
+        </view>
+        <view class="section-item">
+          <image class="section-item-img" src="../../assets/img/base/gpyh.png" />
+          <text class="section-item-txt">气动工具</text>
+        </view>
       </view>
     </view>
-  </view>
-  <view class="section bc-white">
-    <view class="section-title">紧固件分类</view>
-    <view class="section-list">
-      <view class="section-item">
-        <image class="section-item-img" src="../../assets/img/base/gpyh.png" />
-        <text class="section-item-txt">螺栓</text>
-      </view>
-      <view class="section-item">
-        <image class="section-item-img" src="../../assets/img/base/gpyh.png" />
-        <text class="section-item-txt">螺母</text>
-      </view>
-      <view class="section-item">
-        <image class="section-item-img" src="../../assets/img/base/gpyh.png" />
-        <text class="section-item-txt">垫圈</text>
-      </view>
-      <view class="section-item">
-        <image class="section-item-img" src="../../assets/img/base/gpyh.png" />
-        <text class="section-item-txt">组合螺丝</text>
-      </view>
-      <view class="section-item">
-        <image class="section-item-img" src="../../assets/img/base/gpyh.png" />
-        <text class="section-item-txt">铆接类</text>
-      </view>
-      <view class="section-item">
-        <image class="section-item-img" src="../../assets/img/base/gpyh.png" />
-        <text class="section-item-txt">螺钉</text>
-      </view>
-      <view class="section-item">
-        <image class="section-item-img" src="../../assets/img/base/gpyh.png" />
-        <text class="section-item-txt">紧定</text>
-      </view>
-      <view class="section-item">
-        <image class="section-item-img" src="../../assets/img/base/gpyh.png" />
-        <text class="section-item-txt">钻尾</text>
-      </view>
-      <view class="section-item">
-        <image class="section-item-img" src="../../assets/img/base/gpyh.png" />
-        <text class="section-item-txt">膨胀系列</text>
+    <view class="section bc-white">
+      <view class="section-title">紧固件分类</view>
+      <view class="section-list">
+        <view class="section-item">
+          <image class="section-item-img" src="../../assets/img/base/gpyh.png" />
+          <text class="section-item-txt">螺栓</text>
+        </view>
+        <view class="section-item">
+          <image class="section-item-img" src="../../assets/img/base/gpyh.png" />
+          <text class="section-item-txt">螺母</text>
+        </view>
+        <view class="section-item">
+          <image class="section-item-img" src="../../assets/img/base/gpyh.png" />
+          <text class="section-item-txt">垫圈</text>
+        </view>
+        <view class="section-item">
+          <image class="section-item-img" src="../../assets/img/base/gpyh.png" />
+          <text class="section-item-txt">组合螺丝</text>
+        </view>
+        <view class="section-item">
+          <image class="section-item-img" src="../../assets/img/base/gpyh.png" />
+          <text class="section-item-txt">铆接类</text>
+        </view>
+        <view class="section-item">
+          <image class="section-item-img" src="../../assets/img/base/gpyh.png" />
+          <text class="section-item-txt">螺钉</text>
+        </view>
+        <view class="section-item">
+          <image class="section-item-img" src="../../assets/img/base/gpyh.png" />
+          <text class="section-item-txt">紧定</text>
+        </view>
+        <view class="section-item">
+          <image class="section-item-img" src="../../assets/img/base/gpyh.png" />
+          <text class="section-item-txt">钻尾</text>
+        </view>
+        <view class="section-item">
+          <image class="section-item-img" src="../../assets/img/base/gpyh.png" />
+          <text class="section-item-txt">膨胀系列</text>
+        </view>
       </view>
     </view>
-  </view>
-</view>
+  </scroll-view>
+</scroll-view>

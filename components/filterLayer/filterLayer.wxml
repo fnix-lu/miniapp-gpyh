@@ -1,0 +1,14 @@
+<!--components/filterLayer/filterLayer.wxml-->
+<view style="position: relative;">
+  <view class="trigger">
+    <view class="trigger-inner trigger-inner-on">
+      <view class="trigger-inner-content">
+        <text style="margin-right: 10rpx;">材质</text>
+        <image class="arrow" src="../../assets/img/arrow/down.png" />
+      </view>
+    </view>
+  </view>
+  <view class="layer">
+
+  </view>
+</view>

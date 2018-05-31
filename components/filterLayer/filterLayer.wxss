@@ -1,0 +1,40 @@
+/* components/filterLayer/filterLayer.wxss */
+@import "../../app.wxss";
+
+.trigger {
+  background: #f7f7f7;
+  height: 87rpx;
+  border-bottom: 1rpx solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.trigger-inner {
+  width: 96%;
+  height: 74rpx;
+  border: 1rpx solid #f7f7f7;
+  border-bottom: none;
+  border-top-left-radius: 10rpx;
+  border-top-right-radius: 10rpx;
+  margin-bottom: -1rpx;
+  display: flex;
+  justify-content: center;
+}
+.trigger-inner-on {
+  border-color: #ccc;
+  background: #fff;
+}
+.trigger-inner-content {
+  height: 1em;
+  display: flex;
+  align-items: center;
+  margin-top: 16rpx;
+}
+.layer {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 264rpx;
+  bottom: 0;
+  background: rgba(0, 0, 0, .3);
+}

@@ -4,7 +4,8 @@ Page({
    * 页面的初始数据
    */
   data: {
-    step: 1
+    tabId: 0,
+    status: 1
   },
 
   /**

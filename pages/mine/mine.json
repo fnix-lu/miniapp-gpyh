@@ -3,5 +3,6 @@
   "usingComponents": {
     "menu-block": "../../components/menuBlock/menuBlock",
     "menu-list": "../../components/menuList/menuList"
-  }
+  },
+  "disableScroll": true
 }

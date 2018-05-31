@@ -1,0 +1,24 @@
+<scroll-view class="container bc-white" scroll-y>
+  <search-bar />
+  <view class="search-tabs">
+    <view class="tab-item {{ tabId == 0 ? 'tab-item-on' : '' }}">紧固件</view>
+    <view class="tab-item {{ tabId == 1 ? 'tab-item-on' : '' }}">工具</view>
+  </view>
+  <view class="search-block" hidden="{{ status != 0 }}">
+    <view class="search-head">
+      <text>最近搜索</text>
+      <image class="delete-icon" src="../../assets/img/base/delete.png" />
+    </view>
+    <view class="search-body">
+      <text class="search-item">法思特 GB818</text>
+      <text class="search-item">苏州法思特 螺钉</text>
+      <text class="search-item">打孔钻机</text>
+      <text class="search-item">切割机</text>
+    </view>
+  </view>
+  <view class="" hidden="{{ status != 1 }}">
+    <filter-layer />
+  </view>
+</scroll-view>
+
+<!-- <view class="modal"></view> -->

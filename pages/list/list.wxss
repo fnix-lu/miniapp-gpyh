@@ -1,0 +1,49 @@
+.search-tabs {
+  display: flex;
+}
+.tab-item {
+  flex-grow: 1;
+  height: 87rpx;
+  line-height: 87rpx;
+  text-align: center;
+  border-bottom: 1rpx solid #ccc;
+}
+.tab-item-on {
+  color: #0068b7;
+  border-bottom-color: #0068b7;
+}
+.search-block {
+  padding: 0 32rpx;
+}
+.search-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+  height: 88rpx;
+}
+.search-item {
+  display: inline-block;
+  height: 48rpx;
+  line-height: 48rpx;
+  padding: 0 18rpx;
+  border-radius: 24rpx;
+  background: #dddddd;
+  margin-right: 24rpx;
+  margin-bottom: 30rpx;
+}
+.delete-icon {
+  width: 32rpx;
+  height: 32rpx;
+}
+
+
+.modal {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, .3);
+  z-index: 10;
+}
