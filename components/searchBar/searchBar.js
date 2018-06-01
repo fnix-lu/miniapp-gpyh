@@ -1,6 +1,11 @@
 // components/searchBar/searchBar.js
 Component({
   /**
+   * 使用的外部样式类
+   */
+  externalClasses: ['raise-class'],
+
+  /**
    * 组件的属性列表
    */
   properties: {

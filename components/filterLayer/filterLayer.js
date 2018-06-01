@@ -21,6 +21,6 @@ Component({
 
   },
   attached () {
-    console.log(this);
+
   }
 })

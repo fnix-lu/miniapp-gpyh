@@ -36,7 +36,7 @@
   text-overflow: ellipsis;
 }
 .search-box {
-  flex-grow: 1;
+  flex: 1;
   height: 48rpx;
   border-radius: 8rpx;
   display: flex;
@@ -46,7 +46,7 @@
   margin: 0 20rpx;
 }
 .search-input {
-  flex-grow: 1;
+  flex: 1;
   margin-left: 20rpx;
 }
 .scan {
@@ -136,8 +136,7 @@
   border-top: 1rpx solid #ccc;
 }
 .section-item {
-  flex-basis: 250rpx;
-  flex-grow: 1;
+  flex: 1 250rpx;
   position: relative;
   padding: 16rpx 0 26rpx;
 }

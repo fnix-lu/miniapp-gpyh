@@ -24,7 +24,7 @@
   height: 24rpx;
 }
 .search-box {
-  flex-grow: 1;
+  flex: 1;
   height: 48rpx;
   border-radius: 8rpx;
   display: flex;
@@ -34,7 +34,7 @@
   margin-right: 20rpx;
 }
 .search-input {
-  flex-grow: 1;
+  flex: 1;
   margin-left: 20rpx;
 }
 .get-search {
