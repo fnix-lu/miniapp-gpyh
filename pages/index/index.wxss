@@ -28,6 +28,7 @@
   height: 24rpx;
 }
 .curr-city {
+  display: inline-block;
   color: #fff;
   width: 4em;
   padding-left: 5rpx; 

@@ -23,6 +23,7 @@
       <filter-layer style="flex:1" />
       <filter-layer style="flex:1" />
     </view>
+    <!-- 工具列表 -->
     <view class="goods-list">
       <view class="goods-item">
         <view class="goods-imgbox">
@@ -123,13 +124,68 @@
         </view>
       </view>
     </view>
+    <!-- 紧固件列表 -->
+    <view class="goods-list">
+      <view class="goods-item">
+        <image class="goods-member" src="/assets/img/base/gpyh_member.png" />
+        <view class="goods-info">
+          <view class="goods-name">
+            <image class="gpyh-self" src="/assets/img/base/gpyh_self.png" />
+            <text> 1008（碳钢） GB818 M5*6 蓝白锌 十字盘头机螺钉 三联盛 三联盛 三联盛</text>
+          </view>
+          <view class="goods-text goods-text-fastener">
+            <text class="goods-text-item">品牌：法思特</text>
+            <text class="goods-text-item">库存：99千支</text>
+            <text class="goods-text-item">起订量：5千支</text>
+            <text class="goods-text-item">包装规格：1千支/包</text>
+          </view>
+          <view>
+            <text class="spec-num">9999种规格</text>
+            <text><text class="price-main f28">￥99.90</text>/套</text>
+            <text class="price-del">￥119.90/套</text>
+          </view>
+          <image class="cart-icon" src="/assets/img/base/cart_0.png" />
+        </view>
+      </view>
+      <view class="goods-item">
+        <image class="goods-member" src="/assets/img/base/gpyh_member.png" />
+        <view class="goods-info">
+          <view class="goods-name">
+            <image class="gpyh-self" src="/assets/img/base/gpyh_self.png" />
+            <text> 1008（碳钢） GB818 M5*6 蓝白锌 十字盘头机螺钉 三联盛 三联盛 三联盛</text>
+          </view>
+          <view class="goods-text goods-text-fastener">
+            <text class="goods-text-item">品牌：法思特</text>
+            <text class="goods-text-item">库存：99千支</text>
+            <text class="goods-text-item">起订量：5千支</text>
+            <text class="goods-text-item">包装规格：1千支/包</text>
+          </view>
+          <view>
+            <text class="spec-num">9999种规格</text>
+            <text><text class="price-main f28">￥99.90</text>/套</text>
+            <text class="price-del">￥119.90/套</text>
+          </view>
+          <image class="cart-icon" src="/assets/img/base/cart_0.png" />
+        </view>
+      </view>
+    </view>
   </view>
 </scroll-view>
 
-<view class="modal-shadow" hidden="{{ false }}"></view>
+<view class="modal-shadow" hidden="{{ true }}"></view>
 
-<view class="modal side-right" hidden="{{ false }}">
-  <scroll-view>
+<view class="modal side-right" hidden="{{ true }}">
+  <scroll-view class="side-right-scroll" scroll-y>
+    <view class="filter-main">
+      <view class="filter-item filter-item-on filter-item-main">
+        <text>仅显示自营</text>
+        <image class="selected-icon" src="/assets/img/base/selected.png" />
+      </view>
+      <view class="filter-item filter-item-on filter-item-main">
+        <text>仅显示有货</text>
+        <image class="selected-icon" src="/assets/img/base/selected.png" />
+      </view>
+    </view>
     <view class="filter-block">
       <view class="filter-head f28">
         <text>材质</text>
@@ -160,15 +216,143 @@
           <text>史丹利(STANLEY)</text>
           <image class="selected-icon" src="/assets/img/base/selected.png" />
         </view>
-        <view class="filter-item filter-item-on" style="align-self: flex-start">
+        <view class="filter-item filter-item-on">
           <text>史丹利(STANLEY)</text>
           <image class="selected-icon" src="/assets/img/base/selected.png" />
         </view>
-        <view class="filter-item filter-item-on" style="align-self: flex-start">
+        <view class="filter-item filter-item-on">
           <text>史丹利(STANLEY)</text>
           <image class="selected-icon" src="/assets/img/base/selected.png" />
         </view>
+        <view class="filter-item extra"></view>
+      </view>
+    </view>
+    <view class="filter-block">
+      <view class="filter-head f28">
+        <text>材质</text>
+        <image class="arrow" src="/assets/img/arrow/down.png" />
+      </view>
+      <view class="filter-body">
+        <view class="filter-item filter-item-on">
+          <text>史丹利</text>
+          <image class="selected-icon" src="/assets/img/base/selected.png" />
+        </view>
+        <view class="filter-item filter-item-on">
+          <text>史丹利(STANLEY)</text>
+          <image class="selected-icon" src="/assets/img/base/selected.png" />
+        </view>
+        <view class="filter-item filter-item-on">
+          <text>史丹利(STANLEY)</text>
+          <image class="selected-icon" src="/assets/img/base/selected.png" />
+        </view>
+        <view class="filter-item filter-item-on">
+          <text>史丹利(STANLEY)</text>
+          <image class="selected-icon" src="/assets/img/base/selected.png" />
+        </view>
+        <view class="filter-item filter-item-on">
+          <text>史丹利(STANLEY)</text>
+          <image class="selected-icon" src="/assets/img/base/selected.png" />
+        </view>
+        <view class="filter-item filter-item-on">
+          <text>史丹利(STANLEY)</text>
+          <image class="selected-icon" src="/assets/img/base/selected.png" />
+        </view>
+        <view class="filter-item filter-item-on">
+          <text>史丹利(STANLEY)</text>
+          <image class="selected-icon" src="/assets/img/base/selected.png" />
+        </view>
+        <view class="filter-item filter-item-on">
+          <text>史丹利(STANLEY)</text>
+          <image class="selected-icon" src="/assets/img/base/selected.png" />
+        </view>
+        <view class="filter-item extra"></view>
+      </view>
+    </view>
+    <view class="filter-block">
+      <view class="filter-head f28">
+        <text>材质</text>
+        <image class="arrow" src="/assets/img/arrow/right.png" />
+      </view>
+      <view class="filter-body">
+        <view class="filter-item filter-item-on">
+          <text>史丹利</text>
+          <image class="selected-icon" src="/assets/img/base/selected.png" />
+        </view>
+        <view class="filter-item filter-item-on">
+          <text>史丹利(STANLEY)</text>
+          <image class="selected-icon" src="/assets/img/base/selected.png" />
+        </view>
+        <view class="filter-item filter-item-on">
+          <text>史丹利(STANLEY)</text>
+          <image class="selected-icon" src="/assets/img/base/selected.png" />
+        </view>
+        <view class="filter-item filter-item-on">
+          <text>史丹利(STANLEY)</text>
+          <image class="selected-icon" src="/assets/img/base/selected.png" />
+        </view>
+        <view class="filter-item filter-item-on">
+          <text>史丹利(STANLEY)</text>
+          <image class="selected-icon" src="/assets/img/base/selected.png" />
+        </view>
+        <view class="filter-item filter-item-on">
+          <text>史丹利(STANLEY)</text>
+          <image class="selected-icon" src="/assets/img/base/selected.png" />
+        </view>
+        <view class="filter-item filter-item-on">
+          <text>史丹利(STANLEY)</text>
+          <image class="selected-icon" src="/assets/img/base/selected.png" />
+        </view>
+        <view class="filter-item filter-item-on">
+          <text>史丹利(STANLEY)</text>
+          <image class="selected-icon" src="/assets/img/base/selected.png" />
+        </view>
+        <view class="filter-item extra"></view>
+      </view>
+    </view>
+    <view class="filter-block">
+      <view class="filter-head f28">
+        <text>材质</text>
+        <image class="arrow" src="/assets/img/arrow/right.png" />
+      </view>
+      <view class="filter-body">
+        <view class="filter-item filter-item-on">
+          <text>史丹利</text>
+          <image class="selected-icon" src="/assets/img/base/selected.png" />
+        </view>
+        <view class="filter-item filter-item-on">
+          <text>史丹利(STANLEY)</text>
+          <image class="selected-icon" src="/assets/img/base/selected.png" />
+        </view>
+        <view class="filter-item filter-item-on">
+          <text>史丹利(STANLEY)</text>
+          <image class="selected-icon" src="/assets/img/base/selected.png" />
+        </view>
+        <view class="filter-item filter-item-on">
+          <text>史丹利(STANLEY)</text>
+          <image class="selected-icon" src="/assets/img/base/selected.png" />
+        </view>
+        <view class="filter-item filter-item-on">
+          <text>史丹利(STANLEY)</text>
+          <image class="selected-icon" src="/assets/img/base/selected.png" />
+        </view>
+        <view class="filter-item filter-item-on">
+          <text>史丹利(STANLEY)</text>
+          <image class="selected-icon" src="/assets/img/base/selected.png" />
+        </view>
+        <view class="filter-item filter-item-on">
+          <text>史丹利(STANLEY)</text>
+          <image class="selected-icon" src="/assets/img/base/selected.png" />
+        </view>
+        <view class="filter-item filter-item-on">
+          <text>史丹利(STANLEY)</text>
+          <image class="selected-icon" src="/assets/img/base/selected.png" />
+        </view>
+        <view class="filter-item extra"></view>
       </view>
     </view>
   </scroll-view>
+  <view class="side-right-btns">
+    <view class="side-right-btn btn-default">重置</view>
+    <view class="side-right-btn btn-primary">确认</view>
+  </view>
 </view>

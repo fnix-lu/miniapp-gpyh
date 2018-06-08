@@ -54,6 +54,7 @@
   height: 80rpx;
   line-height: 80rpx;
   font-size: 28rpx;
+  text-align: center;
 }
 .btn-default {
   background: #eee;
@@ -61,6 +62,7 @@
   height: 80rpx;
   line-height: 80rpx;
   font-size: 28rpx;
+  text-align: center;
 }
 
 

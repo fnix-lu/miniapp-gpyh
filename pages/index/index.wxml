@@ -2,10 +2,12 @@
   <view class="top-search">
     <image class="bg-search" src="../../assets/img/base/top_search.png" />
     <view class="top-search-inner m20-x">
-      <view class="curr-city-box">
-        <image class="location-icon" src="../../assets/img/base/location.png" />
-        <text class="curr-city">梅里斯达斡尔族区</text>
-      </view>
+      <picker mode="region">
+        <view class="curr-city-box">
+          <image class="location-icon" src="../../assets/img/base/location.png" />
+          <text class="curr-city">梅里斯达斡尔族区</text>
+        </view>
+      </picker>
       <navigator class="search-box bc-white" url="../../pages/list/list">
         <image class="search-icon" src="../../assets/img/base/search.png" />
         <input class="search-input" placeholder="搜索" disabled />

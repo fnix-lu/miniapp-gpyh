@@ -1,0 +1,36 @@
+<!--pages/detail/detail.wxml-->
+<scroll-view class="container">
+  <scroll-view class="detail-scroll" scroll-y>
+    <!-- 商品图片 -->
+    <swiper indicator-dots
+            indicator-color="rgba(255,255,255,.5)"
+            indicator-active-color="#f18f2b"
+            circular class="detail-swiper">
+      <swiper-item>
+        <image class="slider-img" src="https://p1.gpyh.com/webnew/img/banner/4/67f30bea-e6ae-4433-889f-4d97a602c011.jpg" mode="aspectFill" />
+      </swiper-item>
+      <swiper-item>
+        <image class="slider-img" src="https://p3.gpyh.com/webnew/img/banner/4/a4a0a52e-f31f-44cf-9857-fe368100f1b6.jpg" mode="aspectFill" />
+      </swiper-item>
+    </swiper>
+    <!-- end 商品图片  -->
+    <!-- 商品名称/价格 -->
+    <view>...</view>
+    <!-- end 商品名称/价格 -->
+  </scroll-view>
+  <view class="detail-navbar">
+    <view class="navbar-btn">
+      <image class="navbar-icon" src="/assets/img/base/service.png" />
+      <text>客服</text>
+    </view>
+    <view class="navbar-btn">
+      <image class="navbar-icon" src="/assets/img/base/cart_3.png" />
+      <text>购物车</text>
+    </view>
+    <view class="navbar-btn">
+      <image class="navbar-icon" src="/assets/img/base/collect_default.png" />
+      <text>收藏</text>
+    </view>
+    <view class="btn-primary add-to-cart">加入购物车</view>
+  </view>
+</scroll-view>

@@ -59,6 +59,7 @@
   display: flex;
   padding: 20rpx;
   border-bottom: 1rpx solid #ccc;
+  position: relative;
 }
 .goods-imgbox {
   width: 158rpx;
@@ -100,9 +101,13 @@
 }
 .goods-text {
   display: flex;
+  flex-wrap: wrap;
+}
+.goods-text-fastener {
+  margin: 20rpx 0;
 }
 .goods-text-item {
-  flex: 1;
+  flex: 1 50%;
 }
 .price-main {
   color: #ff671c;
@@ -136,14 +141,53 @@
   background: #fff;
   z-index: 100;
 }
+.side-right-scroll {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 81rpx;
+}
+.side-right-btns {
+  height: 80rpx;
+  border-top: 1rpx solid #ccc;
+  display: flex;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.side-right-btn {
+  flex: 1;
+  text-align: center;
+}
 
 
+.filter-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20rpx;
+  border-bottom: 1rpx solid #ccc;
+}
+.filter-item-main {
+  width: 286rpx !important;
+  margin-bottom: 0 !important;
+}
+
+
+.filter-head {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30rpx 20rpx;
+}
 .filter-body {
   max-height: 720rpx;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  padding: 20rpx;
+  padding: 0 20rpx;
 }
 /* .filter-body::after {
   content: '';
@@ -166,6 +210,9 @@
 .filter-item-on {
   border-color: #0068b7;
   background: #eff4fa;
+}
+.extra {
+  opacity: 0;
 }
 .selected-icon {
   width: 44rpx;
