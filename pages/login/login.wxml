@@ -7,7 +7,7 @@
       <view class="error"></view>
       <view class="login-row"><input class="bc-white login-input" type="text" placeholder="请输入登录密码" password /></view>
       <view class="error">用户名或密码错误，剩余3次机会</view>
-      <view class="login-row"><button class="btn-primary">登录</button></view>
+      <view class="login-row"><button class="btn btn-primary">登录</button></view>
       <view class="login-row" style="margin: 20rpx 0;">
         <navigator class="forget-pwd" url="/pages/password/password">忘记密码</navigator>
         <navigator class="free-reg" url="/pages/register/register">免费注册</navigator>

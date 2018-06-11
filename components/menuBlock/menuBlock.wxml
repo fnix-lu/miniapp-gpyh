@@ -1,14 +1,14 @@
-<view class="content-block bc-white m20-x">
+<view class="blk-radius bc-white m20-x">
   <view class="block-head">
     <text>{{ options.title }}</text>
     <navigator class="block-more" url="{{ options.link.url }}">
       <text>{{ options.link.text }}</text>
-      <image class="arrow" src="../../assets/img/arrow/right.png" />
+      <image class="i24" src="../../assets/img/arrow/right.png" />
     </navigator>
   </view>
   <view class="block-body">
     <navigator class="item item-1-{{ options.column }}" wx:for="{{ options.list }}" url="{{ item.url }}">
-      <image class="menu-img" src="{{ item.icon }}" />
+      <image class="i44" src="{{ item.icon }}" />
       <view>{{ item.text }}</view>
       <text class="badge" wx:if="{{ item.badge }}">{{ item.badge }}</text>
     </navigator>

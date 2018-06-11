@@ -4,16 +4,16 @@
     <view class="top-search-inner m20-x">
       <picker mode="region">
         <view class="curr-city-box">
-          <image class="location-icon" src="../../assets/img/base/location.png" />
+          <image class="i24" src="../../assets/img/base/location.png" />
           <text class="curr-city">梅里斯达斡尔族区</text>
         </view>
       </picker>
       <navigator class="search-box bc-white" url="../../pages/list/list">
-        <image class="search-icon" src="../../assets/img/base/search.png" />
+        <image class="i24" src="../../assets/img/base/search.png" />
         <input class="search-input" placeholder="搜索" disabled />
       </navigator>
       <view class="scan">
-        <image class="scan-icon" src="../../assets/img/base/scan.png" />
+        <image class="i24" src="../../assets/img/base/scan.png" />
       </view>
     </view>
   </view>

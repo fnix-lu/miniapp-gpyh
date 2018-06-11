@@ -35,14 +35,14 @@
       </view>
       <view class="error">请选择省/直辖市、地级市、区/县</view>
       <view class="center f28" style="margin: 15rpx 0 30rpx;">点击注册，表示您同意<text style="color: #0068b7">《注册协议》</text></view>
-      <button class="btn-primary">注册</button>
+      <button class="btn btn-primary">注册</button>
     </block>
     <block wx:if="{{ step == 2 }}">
       <image class="success-img" src="../../assets/img/base/success.png" />
       <view class="success-txt">恭喜！您已成功注册工品账号</view>
       <view class="btns">
-        <button class="btn-default to-home">返回首页</button>
-        <button class="btn-primary to-login">去登录</button>
+        <button class="btn btn-default to-home">返回首页</button>
+        <button class="btn btn-primary to-login">去登录</button>
       </view>
     </block>
   </view>

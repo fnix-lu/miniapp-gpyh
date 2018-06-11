@@ -3,7 +3,7 @@
     <view class="info-preview" wx:if="{{ false }}">
       <view class="operation-bar">
         <navigator class="setting">
-          <image class="setting-img" src="../../assets/img/mine/setting.png" />
+          <image class="i32" src="../../assets/img/mine/setting.png" />
         </navigator>
       </view>
       <view class="info-block">
@@ -14,25 +14,25 @@
         <view class="info-txtbox">
           <view class="info-username">UserName</view>
           <view>
-            <view class="info-item"><image class="info-icon" src="../../assets/img/mine/phone.png" />15600000001</view>
+            <view class="info-item"><image class="i24" src="../../assets/img/mine/phone.png" />15600000001</view>
           </view>
           <view class="info-row">
-            <view class="info-item"><image class="info-icon" src="../../assets/img/mine/medal.png" />铜牌</view>
+            <view class="info-item"><image class="i24" src="../../assets/img/mine/medal.png" />铜牌</view>
             <view class="info-item" style="margin-left: 35rpx;">成长值：9999999</view>
           </view>
         </view>
         <view class="other">
           <navigator class="other-nav">
-            <image class="info-icon" style="margin-right: 12rpx;" src="../../assets/img/mine/calendar.png" />签到
+            <image class="i24" style="margin-right: 12rpx;" src="../../assets/img/mine/calendar.png" />签到
           </navigator>
           <navigator class="other-nav">
-            <image class="info-icon" style="margin-right: 12rpx;" src="../../assets/img/mine/award.png" />抽奖
+            <image class="i24" style="margin-right: 12rpx;" src="../../assets/img/mine/award.png" />抽奖
           </navigator>
         </view>
       </view>
     </view>
     <view class="not-login" wx:else><navigator class="to-log-reg" url="/pages/login/login">登录/注册</navigator></view>
-    <view class="content-block bc-white m20-x datainfo">
+    <view class="blk-radius bc-white m20-x datainfo">
       <navigator class="datainfo-item">
         <view>199</view>
         <view>我的收藏</view>

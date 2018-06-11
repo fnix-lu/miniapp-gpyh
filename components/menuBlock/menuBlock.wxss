@@ -24,10 +24,6 @@
   position: relative;
   margin-bottom: 30rpx;
 }
-.menu-img {
-  width: 44rpx;
-  height: 44rpx;
-}
 .badge {
   display: inline-block;
   line-height: 26rpx;

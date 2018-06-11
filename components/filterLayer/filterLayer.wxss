@@ -62,8 +62,6 @@
   background: #eff4fa;
 }
 .selected-icon {
-  width: 44rpx;
-  height: 44rpx;
   position: absolute;
   right: 0;
   top: 0;

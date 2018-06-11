@@ -26,8 +26,7 @@
   align-items: center;
   padding-right: 20rpx;
 }
-.setting,
-.setting-img {
+.setting {
   width: 32rpx;
   height: 32rpx;
 }
@@ -78,10 +77,6 @@
 .info-item {
   display: inline-flex;
   align-items: center;
-}
-.info-icon {
-  width: 24rpx;
-  height: 24rpx;
 }
 .other {
   flex: 1;

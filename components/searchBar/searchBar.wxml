@@ -2,7 +2,7 @@
   <image class="bg-search" src="../../assets/img/base/top_search.png" />
   <view class="top-search-inner m20-x">
     <view class="search-box bc-white">
-      <image class="search-icon" src="../../assets/img/base/search.png" />
+      <image class="i24" src="../../assets/img/base/search.png" />
       <input class="search-input" placeholder="搜索" />
     </view>
     <view class="get-search">搜索</view>

@@ -19,10 +19,6 @@
   display: flex;
   align-items: center;
 }
-.search-icon {
-  width: 24rpx;
-  height: 24rpx;
-}
 .search-box {
   flex: 1;
   height: 48rpx;

@@ -1,13 +1,13 @@
 {
   "pages": [
     "pages/detail/detail",
-    "pages/index/index",
     "pages/list/list",
-    "pages/register/register",
-    "pages/password/password",
     "pages/mine/mine",
-    "pages/cart/cart",
+    "pages/password/password",
+    "pages/register/register",
     "pages/login/login",
+    "pages/index/index",
+    "pages/cart/cart",
     "pages/category/category"
   ],
   "tabBar": {

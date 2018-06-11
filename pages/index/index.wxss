@@ -21,12 +21,6 @@
   display: flex;
   align-items: center;
 }
-.location-icon,
-.search-icon,
-.scan-icon {
-  width: 24rpx;
-  height: 24rpx;
-}
 .curr-city {
   display: inline-block;
   color: #fff;

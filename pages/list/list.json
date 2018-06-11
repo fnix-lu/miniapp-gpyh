@@ -2,7 +2,8 @@
   "navigationBarTitleText": "搜索商品",
   "usingComponents": {
     "search-bar": "/components/searchBar/searchBar",
-    "filter-layer": "/components/filterLayer/filterLayer"
+    "filter-layer": "/components/filterLayer/filterLayer",
+    "goods-list": "/components/goodsList/goodsList"
   },
   "disableScroll": true
 }

@@ -4,7 +4,7 @@
     <view class="trigger-inner {{ false ? 'trigger-inner-on' : '' }}">
       <view class="trigger-inner-content">
         <text style="margin-right: 10rpx;">材质</text>
-        <image class="arrow" src="../../assets/img/arrow/down.png" />
+        <image class="i24" src="../../assets/img/arrow/down.png" />
       </view>
     </view>
   </view>
@@ -12,172 +12,172 @@
     <view class="layer-list">
       <view class="layer-item">
         <text>PA66+50%玻纤</text>
-        <!-- <image class="selected-icon" src="/assets/img/base/selected.png" /> -->
+        <!-- <image class="i44 selected-icon" src="/assets/img/base/selected.png" /> -->
       </view>
       <view class="layer-item">
         <text>PA66+50%玻纤</text>
-        <!-- <image class="selected-icon" src="/assets/img/base/selected.png" /> -->
+        <!-- <image class="i44 selected-icon" src="/assets/img/base/selected.png" /> -->
       </view>
       <view class="layer-item layer-item-on">
         <text>PA66+50%玻纤</text>
-        <image class="selected-icon" src="/assets/img/base/selected.png" />
+        <image class="i44 selected-icon" src="/assets/img/base/selected.png" />
       </view>
       <view class="layer-item">
         <text>PA66+50%玻纤</text>
-        <!-- <image class="selected-icon" src="/assets/img/base/selected.png" /> -->
+        <!-- <image class="i44 selected-icon" src="/assets/img/base/selected.png" /> -->
       </view>
       <view class="layer-item">
         <text>PA66+50%玻纤</text>
-        <!-- <image class="selected-icon" src="/assets/img/base/selected.png" /> -->
+        <!-- <image class="i44 selected-icon" src="/assets/img/base/selected.png" /> -->
       </view>
       <view class="layer-item">
         <text>PA66+50%玻纤</text>
-        <!-- <image class="selected-icon" src="/assets/img/base/selected.png" /> -->
+        <!-- <image class="i44 selected-icon" src="/assets/img/base/selected.png" /> -->
       </view>
       <view class="layer-item">
         <text>PA66+50%玻纤</text>
-        <!-- <image class="selected-icon" src="/assets/img/base/selected.png" /> -->
+        <!-- <image class="i44 selected-icon" src="/assets/img/base/selected.png" /> -->
       </view>
       <view class="layer-item">
         <text>PA66+50%玻纤</text>
-        <!-- <image class="selected-icon" src="/assets/img/base/selected.png" /> -->
+        <!-- <image class="i44 selected-icon" src="/assets/img/base/selected.png" /> -->
       </view>
       <view class="layer-item">
         <text>PA66+50%玻纤</text>
-        <!-- <image class="selected-icon" src="/assets/img/base/selected.png" /> -->
+        <!-- <image class="i44 selected-icon" src="/assets/img/base/selected.png" /> -->
       </view>
       <view class="layer-item">
         <text>PA66+50%玻纤</text>
-        <!-- <image class="selected-icon" src="/assets/img/base/selected.png" /> -->
+        <!-- <image class="i44 selected-icon" src="/assets/img/base/selected.png" /> -->
       </view>
       <view class="layer-item">
         <text>PA66+50%玻纤</text>
-        <!-- <image class="selected-icon" src="/assets/img/base/selected.png" /> -->
+        <!-- <image class="i44 selected-icon" src="/assets/img/base/selected.png" /> -->
       </view>
       <view class="layer-item">
         <text>PA66+50%玻纤</text>
-        <!-- <image class="selected-icon" src="/assets/img/base/selected.png" /> -->
+        <!-- <image class="i44 selected-icon" src="/assets/img/base/selected.png" /> -->
       </view>
       <view class="layer-item layer-item-on">
         <text>PA66+50%玻纤</text>
-        <image class="selected-icon" src="/assets/img/base/selected.png" />
+        <image class="i44 selected-icon" src="/assets/img/base/selected.png" />
       </view>
       <view class="layer-item">
         <text>PA66+50%玻纤</text>
-        <!-- <image class="selected-icon" src="/assets/img/base/selected.png" /> -->
+        <!-- <image class="i44 selected-icon" src="/assets/img/base/selected.png" /> -->
       </view>
       <view class="layer-item">
         <text>PA66+50%玻纤</text>
-        <!-- <image class="selected-icon" src="/assets/img/base/selected.png" /> -->
+        <!-- <image class="i44 selected-icon" src="/assets/img/base/selected.png" /> -->
       </view>
       <view class="layer-item">
         <text>PA66+50%玻纤</text>
-        <!-- <image class="selected-icon" src="/assets/img/base/selected.png" /> -->
+        <!-- <image class="i44 selected-icon" src="/assets/img/base/selected.png" /> -->
       </view>
       <view class="layer-item">
         <text>PA66+50%玻纤</text>
-        <!-- <image class="selected-icon" src="/assets/img/base/selected.png" /> -->
+        <!-- <image class="i44 selected-icon" src="/assets/img/base/selected.png" /> -->
       </view>
       <view class="layer-item">
         <text>PA66+50%玻纤</text>
-        <!-- <image class="selected-icon" src="/assets/img/base/selected.png" /> -->
+        <!-- <image class="i44 selected-icon" src="/assets/img/base/selected.png" /> -->
       </view>
       <view class="layer-item">
         <text>PA66+50%玻纤</text>
-        <!-- <image class="selected-icon" src="/assets/img/base/selected.png" /> -->
+        <!-- <image class="i44 selected-icon" src="/assets/img/base/selected.png" /> -->
       </view>
       <view class="layer-item">
         <text>PA66+50%玻纤</text>
-        <!-- <image class="selected-icon" src="/assets/img/base/selected.png" /> -->
+        <!-- <image class="i44 selected-icon" src="/assets/img/base/selected.png" /> -->
       </view>
       <view class="layer-item">
         <text>PA66+50%玻纤</text>
-        <!-- <image class="selected-icon" src="/assets/img/base/selected.png" /> -->
+        <!-- <image class="i44 selected-icon" src="/assets/img/base/selected.png" /> -->
       </view>
       <view class="layer-item">
         <text>PA66+50%玻纤</text>
-        <!-- <image class="selected-icon" src="/assets/img/base/selected.png" /> -->
+        <!-- <image class="i44 selected-icon" src="/assets/img/base/selected.png" /> -->
       </view>
       <view class="layer-item layer-item-on">
         <text>PA66+50%玻纤</text>
-        <image class="selected-icon" src="/assets/img/base/selected.png" />
+        <image class="i44 selected-icon" src="/assets/img/base/selected.png" />
       </view>
       <view class="layer-item">
         <text>PA66+50%玻纤</text>
-        <!-- <image class="selected-icon" src="/assets/img/base/selected.png" /> -->
+        <!-- <image class="i44 selected-icon" src="/assets/img/base/selected.png" /> -->
       </view>
       <view class="layer-item">
         <text>PA66+50%玻纤</text>
-        <!-- <image class="selected-icon" src="/assets/img/base/selected.png" /> -->
+        <!-- <image class="i44 selected-icon" src="/assets/img/base/selected.png" /> -->
       </view>
       <view class="layer-item">
         <text>PA66+50%玻纤</text>
-        <!-- <image class="selected-icon" src="/assets/img/base/selected.png" /> -->
+        <!-- <image class="i44 selected-icon" src="/assets/img/base/selected.png" /> -->
       </view>
       <view class="layer-item">
         <text>PA66+50%玻纤</text>
-        <!-- <image class="selected-icon" src="/assets/img/base/selected.png" /> -->
+        <!-- <image class="i44 selected-icon" src="/assets/img/base/selected.png" /> -->
       </view>
       <view class="layer-item">
         <text>PA66+50%玻纤</text>
-        <!-- <image class="selected-icon" src="/assets/img/base/selected.png" /> -->
+        <!-- <image class="i44 selected-icon" src="/assets/img/base/selected.png" /> -->
       </view>
       <view class="layer-item">
         <text>PA66+50%玻纤</text>
-        <!-- <image class="selected-icon" src="/assets/img/base/selected.png" /> -->
+        <!-- <image class="i44 selected-icon" src="/assets/img/base/selected.png" /> -->
       </view>
       <view class="layer-item">
         <text>PA66+50%玻纤</text>
-        <!-- <image class="selected-icon" src="/assets/img/base/selected.png" /> -->
+        <!-- <image class="i44 selected-icon" src="/assets/img/base/selected.png" /> -->
       </view>
       <view class="layer-item">
         <text>PA66+50%玻纤</text>
-        <!-- <image class="selected-icon" src="/assets/img/base/selected.png" /> -->
+        <!-- <image class="i44 selected-icon" src="/assets/img/base/selected.png" /> -->
       </view>
       <view class="layer-item">
         <text>PA66+50%玻纤</text>
-        <!-- <image class="selected-icon" src="/assets/img/base/selected.png" /> -->
+        <!-- <image class="i44 selected-icon" src="/assets/img/base/selected.png" /> -->
       </view>
       <view class="layer-item layer-item-on">
         <text>PA66+50%玻纤</text>
-        <image class="selected-icon" src="/assets/img/base/selected.png" />
+        <image class="i44 selected-icon" src="/assets/img/base/selected.png" />
       </view>
       <view class="layer-item">
         <text>PA66+50%玻纤</text>
-        <!-- <image class="selected-icon" src="/assets/img/base/selected.png" /> -->
+        <!-- <image class="i44 selected-icon" src="/assets/img/base/selected.png" /> -->
       </view>
       <view class="layer-item">
         <text>PA66+50%玻纤</text>
-        <!-- <image class="selected-icon" src="/assets/img/base/selected.png" /> -->
+        <!-- <image class="i44 selected-icon" src="/assets/img/base/selected.png" /> -->
       </view>
       <view class="layer-item">
         <text>PA66+50%玻纤</text>
-        <!-- <image class="selected-icon" src="/assets/img/base/selected.png" /> -->
+        <!-- <image class="i44 selected-icon" src="/assets/img/base/selected.png" /> -->
       </view>
       <view class="layer-item">
         <text>PA66+50%玻纤</text>
-        <!-- <image class="selected-icon" src="/assets/img/base/selected.png" /> -->
+        <!-- <image class="i44 selected-icon" src="/assets/img/base/selected.png" /> -->
       </view>
       <view class="layer-item">
         <text>PA66+50%玻纤</text>
-        <!-- <image class="selected-icon" src="/assets/img/base/selected.png" /> -->
+        <!-- <image class="i44 selected-icon" src="/assets/img/base/selected.png" /> -->
       </view>
       <view class="layer-item">
         <text>PA66+50%玻纤</text>
-        <!-- <image class="selected-icon" src="/assets/img/base/selected.png" /> -->
+        <!-- <image class="i44 selected-icon" src="/assets/img/base/selected.png" /> -->
       </view>
       <view class="layer-item">
         <text>PA66+50%玻纤</text>
-        <!-- <image class="selected-icon" src="/assets/img/base/selected.png" /> -->
+        <!-- <image class="i44 selected-icon" src="/assets/img/base/selected.png" /> -->
       </view>
       <view class="layer-item">
         <text>PA66+50%玻纤</text>
-        <!-- <image class="selected-icon" src="/assets/img/base/selected.png" /> -->
+        <!-- <image class="i44 selected-icon" src="/assets/img/base/selected.png" /> -->
       </view>
     </view>
     <view class="layer-btns">
-      <view class="btn-default reset">重置</view>
-      <view class="btn-primary confirm">确认</view>
+      <view class="btn btn-default reset">重置</view>
+      <view class="btn btn-primary confirm">确认</view>
     </view>
   </view>
 </view>

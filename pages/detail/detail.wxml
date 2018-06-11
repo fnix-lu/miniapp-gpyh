@@ -15,22 +15,143 @@
     </swiper>
     <!-- end 商品图片  -->
     <!-- 商品名称/价格 -->
-    <view>...</view>
+    <view class="detail-block p20-x" style="color: #999">
+      <view class="share">
+        <image class="i32" src="/assets/img/base/share.png" />
+        <text>分享</text>
+      </view>
+      <view class="goods-name">
+        <image class="gpyh-self" src="/assets/img/base/gpyh_self.png" />
+        <text style="vertical-align: middle"> STANLEY/史丹利125件套 机工类 汽修工具 STANLEY/史丹利125件套 机工类 汽修工具</text>
+      </view>
+      <view>
+        <text>会员价：<text class="price-main f28">￥9999.99</text>/千支</text>
+      </view>
+    </view>
     <!-- end 商品名称/价格 -->
+    <!-- 基本信息 -->
+    <view class="detail-block p20-x">
+      <view class="goods-text">
+        <text class="goods-text-item">仓库：苏州自营仓</text>
+        <text class="goods-text-item">库存：1000.00千支</text>
+        <text class="goods-text-item">包装规格：1千支/包</text>
+        <text class="goods-text-item">起订量：1千支</text>
+      </view>
+    </view>
+    <!-- end 基本信息 -->
+    <!-- 信息切换 -->
+    <view class="detail-tabs bc-white">
+      <text class="detail-tabs-item detail-tabs-item-on">商品详情</text>
+      <text class="detail-tabs-item">图纸</text>
+      <text class="detail-tabs-item">相关商品</text>
+      <text class="detail-tabs-item">畅购商品</text>
+    </view>
+    <!-- end 信息切换 -->
+    <!-- 商品详情 -->
+    <view>
+      <view class="detail-block p20-x">
+        <view class="text-item bold">基本信息</view>
+        <view class="text-item">品牌：苏州法思特</view>
+        <view class="text-item">材质：304</view>
+        <view class="text-item">规格：M6*12</view>
+        <view class="text-item">表面处理：洗白</view>
+        <view class="text-item">交期：请联系客服确定</view>
+        <view class="text-item">包装数量：1千支/袋</view>
+        <view class="text-item">包装规格：10袋/盒</view>
+      </view>
+      <view class="detail-block p20-x">
+        <view class="text-item bold">基本信息</view>
+        <view class="text-item">品牌：苏州法思特</view>
+        <view class="text-item">材质：304</view>
+        <view class="text-item">规格：M6*12</view>
+        <view class="text-item">表面处理：洗白</view>
+        <view class="text-item">交期：请联系客服确定</view>
+        <view class="text-item">包装数量：1千支/袋</view>
+        <view class="text-item">包装规格：10袋/盒</view>
+      </view>
+    </view>
+    <!-- end 商品详情 -->
+    <!-- 图纸 -->
+    <view class="detail-block p20-x">
+      <view class="text-item bold">图纸</view>
+      <image class="drawing" src="/assets/img/base/gpyh.png" />
+    </view>
+    <!-- end 图纸 -->
+    <!-- 相关商品 -->
+    <view class="detail-block" style="padding-bottom: 0">
+      <view class="text-item bold p20-x">相关商品</view>
+      <goods-list />
+    </view>
+    <!-- end 相关商品 -->
+    <!-- 畅购商品 -->
+    <view class="detail-block" style="padding-bottom: 0">
+      <view class="text-item bold p20-x">畅购商品</view>
+      <goods-list />
+    </view>
+    <!-- end 畅购商品 -->
   </scroll-view>
   <view class="detail-navbar">
     <view class="navbar-btn">
-      <image class="navbar-icon" src="/assets/img/base/service.png" />
+      <image class="i32" src="/assets/img/base/service.png" />
       <text>客服</text>
     </view>
     <view class="navbar-btn">
-      <image class="navbar-icon" src="/assets/img/base/cart_3.png" />
+      <image class="i32" src="/assets/img/base/cart_3.png" />
       <text>购物车</text>
     </view>
     <view class="navbar-btn">
-      <image class="navbar-icon" src="/assets/img/base/collect_default.png" />
+      <image class="i32" src="/assets/img/base/collect_default.png" />
       <text>收藏</text>
     </view>
-    <view class="btn-primary add-to-cart">加入购物车</view>
+    <view class="btn btn-primary add-to-cart">加入购物车</view>
   </view>
 </scroll-view>
+
+<view class="modal-shadow"></view>
+
+<view class="modal side-bottom">
+  <scroll-view class="add-to-cart-scroll" scroll-y>
+    <view class="main-info p20-x">
+      <view class="imgbox">
+        <image class="goods-img" src="/assets/img/base/gpyh.png" />
+      </view>
+      <view class="main-info-text">
+        <view>
+          <image class="gpyh-self" style="vertical-align: middle" src="/assets/img/base/gpyh_self.png" />
+          <text style="vertical-align: middle;color: #333"> 1008(碳钢) GB818 M5*6 蓝白锌 十字盘头机螺钉 三联盛 三联盛 三联盛</text>
+        </view>
+        <view class="main-info-list">
+          <text class="main-info-list-item">品牌：三联盛</text>
+          <text class="main-info-list-item">库存：1000.00千支</text>
+          <text class="main-info-list-item">起订量：1千支</text>
+          <text class="main-info-list-item">包装规格：1千支/包</text>
+        </view>
+        <view>会员价：<text class="price-main f28">￥1500.00</text>/千支</view>
+      </view>
+    </view>
+    <view class="base-info p20-x">
+      <view class="base-info-item bold">基本信息</view>
+      <view class="base-info-item"><text>品牌</text>: 三联盛</view>
+      <view class="base-info-item"><text>材质</text>: 304</view>
+      <view class="base-info-item"><text>规格</text>: M6*12</view>
+      <view class="base-info-item"><text>表面处理</text>: 洗白</view>
+      <view class="base-info-item"><text>仓库</text>: 嘉兴自营仓</view>
+      <view class="base-info-item"><text>交期</text>: 请联系客服确定交期</view>
+      <view class="base-info-item"><text>包装数量</text>: 1千支/包</view>
+      <view class="base-info-item"><text>包装规格</text>: 10包/盒</view>
+    </view>
+    <view class="p20-x buy-amount-block" style="color: #999">
+      <view style="color: #999">购买数量</view>
+      <view>
+        <view class="amount-box">
+          <view class="amount-btn">-</view>
+          <view class="amount"><input type="number" class="amount-input" value="121212" />包</view>
+          <view class="amount-btn">+</view>
+        </view>
+        <text>20千支</text>
+      </view>
+    </view>
+    <view class="right p20-x">嘉兴自营仓商品，未满整箱需要收取拆箱费￥5元/次</view>
+  </scroll-view>
+  <button class="btn btn-primary m20-x">确认</button>
+</view>
