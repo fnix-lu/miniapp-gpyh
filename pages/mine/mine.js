@@ -4,6 +4,7 @@ Page({
    * 页面的初始数据
    */
   data: {
+    userInfo: wx.getStorageSync('userInfo'),
     menuOrder: {
       column: 5,
       title: '我的订单',
@@ -93,7 +94,18 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    
+    var _this = this, app = getApp();
+
+    wx.request({
+      url: app.globalData.rootUrl + '/PersonalCenter/getCustomerInfoCenterData',
+      method: 'GET',
+      header: {
+        'accessToken': ''
+      },
+      success: function (res) {
+        console.log(res);
+      }
+    })
   },
 
   /**

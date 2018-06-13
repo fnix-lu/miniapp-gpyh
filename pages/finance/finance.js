@@ -1,4 +1,4 @@
-// pages/password/password.js
+// pages/finance/finance.js
 Page({
 
   /**
@@ -7,19 +7,21 @@ Page({
   data: {
     menuList: [
       {
-        name: '登录密码',
+        name: '预付款记录',
         isLink: true,
         content: ''
       }, {
-        name: '支付密码管理',
-        tip: '在预付款支付和白条支付时需要输入的密码', 
+        name: '订单对账',
         isLink: true,
         content: ''
       }, {
-        name: '预付款免验支付',
-        tip: '在预付款支付时，付款金额 ≤ 自定义额度，无需输入短信验证码',         
+        name: '工品券',
         isLink: true,
-        content: '关闭'
+        content: ''
+      }, {
+        name: '申请开票',
+        isLink: true,
+        content: ''
       }
     ]
   },

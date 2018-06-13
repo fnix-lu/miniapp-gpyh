@@ -5,14 +5,42 @@ Page({
    * 页面的初始数据
    */
   data: {
-  
+    bannerList: [],
+    articleList: [],
+    tool: {
+      category: [],
+      extra: 0
+    },
+    fastener: {
+      category: [],
+      extra: 0
+    }
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-  
+    var _this = this,
+        app = getApp();
+        
+    var rootUrl = app.globalData.rootUrl,
+        calcExtraItem = app.globalFunc.calcExtraItem;
+
+    wx.request({
+      url: app.globalData.rootUrl + '/index/mall',
+      method: 'GET',
+      success: function (res) {
+        _this.setData({
+          bannerList: res.data.resultData.bannerList,
+          articleList: res.data.resultData.articleList,
+          'tool.category': res.data.resultData.mainCategoryBo.toolCategories,
+          'tool.extra': calcExtraItem(res.data.resultData.mainCategoryBo.toolCategories.length, 3),
+          'fastener.category': res.data.resultData.mainCategoryBo.fastenerCategories,
+          'fastener.extra': calcExtraItem(res.data.resultData.mainCategoryBo.fastenerCategories.length, 3),
+        });
+      }
+    });
   },
 
   /**

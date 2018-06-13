@@ -5,17 +5,27 @@
   margin-bottom: 20rpx;
 }
 .item {
-  height: 78rpx;
+  border-top: 1rpx solid #ccc;
+  padding: 24rpx 15rpx 24rpx 30rpx;
+}
+.item-main {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-top: 1rpx solid #ccc;
-  padding-left: 30rpx;
-  padding-right: 15rpx;
 }
 .item-first {
   border-top: none;
 }
+.content-box {
+  display: flex;
+  align-items: center;
+}
 .item-content {
   color: #00913a;
+  margin-right: 20rpx;
+}
+.item-tip {
+  color: #ff2a2a;
+  margin-top: 10rpx;
+  font-size: 22rpx;
 }

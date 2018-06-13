@@ -1,27 +1,11 @@
-// pages/password/password.js
+// pages/advance/advance.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    menuList: [
-      {
-        name: '登录密码',
-        isLink: true,
-        content: ''
-      }, {
-        name: '支付密码管理',
-        tip: '在预付款支付和白条支付时需要输入的密码', 
-        isLink: true,
-        content: ''
-      }, {
-        name: '预付款免验支付',
-        tip: '在预付款支付时，付款金额 ≤ 自定义额度，无需输入短信验证码',         
-        isLink: true,
-        content: '关闭'
-      }
-    ]
+  
   },
 
   /**

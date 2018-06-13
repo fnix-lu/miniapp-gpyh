@@ -92,8 +92,21 @@
 }
 
 
-.blk-radius {
+.blk-mode1 {
   border-radius: 10rpx;
+  overflow: hidden;
+  margin-bottom: 20rpx;
+  margin-left: 20rpx;
+  margin-right: 20rpx;
+}
+.blk-mode2 {
+  overflow: hidden;
+  margin-top: 20rpx;
+  margin-bottom: 20rpx;
+  border-top: 1rpx solid #ccc;
+  border-bottom: 1rpx solid #ccc;
+}
+.blk-mode3 {
   overflow: hidden;
   margin-bottom: 20rpx;
 }
@@ -101,4 +114,14 @@
 
 .price-main {
   color: #ff671c;
+}
+
+.ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.extra {
+  opacity: 0;
 }

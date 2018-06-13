@@ -1,4 +1,4 @@
-<view class="blk-radius bc-white m20-x">
+<view class="blk-mode1 bc-white m20-x">
   <view class="block-head">
     <text>{{ options.title }}</text>
     <navigator class="block-more" url="{{ options.link.url }}">

@@ -1,0 +1,152 @@
+<scroll-view class="container">
+  <search-bar />
+  <view class="category-block">
+    <!-- 左 -->
+    <scroll-view class="category-main" scroll-y>
+      <view class="category-item ellipsis category-item-on">全部产品</view>
+      <view class="category-item ellipsis">螺栓</view>
+      <view class="category-item ellipsis">螺钉</view>
+      <view class="category-item ellipsis">螺母</view>
+      <view class="category-item ellipsis">紧定</view>
+      <view class="category-item ellipsis">组合</view>
+      <view class="category-item ellipsis">垫圈</view>
+      <view class="category-item ellipsis">螺柱</view>
+      <view class="category-item ellipsis">牙棒</view>
+      <view class="category-item ellipsis">垫圈</view>
+      <view class="category-item ellipsis">垫圈</view>
+      <view class="category-item ellipsis">垫圈垫圈垫圈垫圈垫圈垫圈垫圈</view>
+      <view class="category-item ellipsis">垫圈</view>
+      <view class="category-item ellipsis">垫圈</view>
+      <view class="category-item ellipsis">垫圈</view>
+      <view class="category-item ellipsis">垫圈</view>
+    </scroll-view>
+    <!-- 中 -->
+    <scroll-view class="category-sub" scroll-y>
+      <view class="section-name">A</view>
+      <view class="section-list">
+        <view class="section-item">
+          <image class="item-img" src="/assets/img/base/gpyh.png" />
+          <view>
+            <view>ANSIB18.2.1</view>
+            <view>六角头螺栓</view>
+          </view>
+        </view>
+        <view class="section-item">
+          <image class="item-img" src="/assets/img/base/gpyh.png" />
+          <view>
+            <view>ANSIB18.2.1</view>
+            <view>六角头螺栓</view>
+          </view>
+        </view>
+        <view class="section-item">
+          <image class="item-img" src="/assets/img/base/gpyh.png" />
+          <view>
+            <view>ANSIB18.2.1</view>
+            <view>六角头螺栓</view>
+          </view>
+        </view>
+      </view>
+      <view class="section-name">A</view>
+      <view class="section-list">
+        <view class="section-item">
+          <image class="item-img" src="/assets/img/base/gpyh.png" />
+          <view>
+            <view>ANSIB18.2.1</view>
+            <view>六角头螺栓</view>
+          </view>
+        </view>
+        <view class="section-item">
+          <image class="item-img" src="/assets/img/base/gpyh.png" />
+          <view>
+            <view>ANSIB18.2.1</view>
+            <view>六角头螺栓</view>
+          </view>
+        </view>
+        <view class="section-item">
+          <image class="item-img" src="/assets/img/base/gpyh.png" />
+          <view>
+            <view>ANSIB18.2.1</view>
+            <view>六角头螺栓</view>
+          </view>
+        </view>
+      </view>
+      <view class="section-name">A</view>
+      <view class="section-list">
+        <view class="section-item">
+          <image class="item-img" src="/assets/img/base/gpyh.png" />
+          <view>
+            <view>ANSIB18.2.1</view>
+            <view>六角头螺栓</view>
+          </view>
+        </view>
+        <view class="section-item">
+          <image class="item-img" src="/assets/img/base/gpyh.png" />
+          <view>
+            <view>ANSIB18.2.1</view>
+            <view>六角头螺栓</view>
+          </view>
+        </view>
+        <view class="section-item">
+          <image class="item-img" src="/assets/img/base/gpyh.png" />
+          <view>
+            <view>ANSIB18.2.1</view>
+            <view>六角头螺栓</view>
+          </view>
+        </view>
+      </view>
+      <view class="section-name">A</view>
+      <view class="section-list">
+        <view class="section-item">
+          <image class="item-img" src="/assets/img/base/gpyh.png" />
+          <view>
+            <view>ANSIB18.2.1</view>
+            <view>六角头螺栓</view>
+          </view>
+        </view>
+        <view class="section-item">
+          <image class="item-img" src="/assets/img/base/gpyh.png" />
+          <view>
+            <view>ANSIB18.2.1</view>
+            <view>六角头螺栓</view>
+          </view>
+        </view>
+        <view class="section-item">
+          <image class="item-img" src="/assets/img/base/gpyh.png" />
+          <view>
+            <view>ANSIB18.2.1</view>
+            <view>六角头螺栓</view>
+          </view>
+        </view>
+      </view>
+    </scroll-view>
+    <!-- 右 -->
+    <scroll-view class="category-char">
+      <view class="char char-on">A</view>
+      <view class="char">B</view>
+      <view class="char">C</view>
+      <view class="char">D</view>
+      <view class="char">E</view>
+      <view class="char">F</view>
+      <view class="char">G</view>
+      <view class="char">H</view>
+      <view class="char">I</view>
+      <view class="char">J</view>
+      <view class="char">K</view>
+      <view class="char">L</view>
+      <view class="char">M</view>
+      <view class="char">N</view>
+      <view class="char">O</view>
+      <view class="char">P</view>
+      <view class="char">Q</view>
+      <view class="char">R</view>
+      <view class="char">S</view>
+      <view class="char">T</view>
+      <view class="char">U</view>
+      <view class="char">V</view>
+      <view class="char">W</view>
+      <view class="char">X</view>
+      <view class="char">Y</view>
+      <view class="char">Z</view>
+    </scroll-view>
+  </view>
+</scroll-view>

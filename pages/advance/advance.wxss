@@ -1,0 +1,28 @@
+/* pages/advance/advance.wxss */
+.my-advance {
+  height: 160rpx;
+  border-bottom: 1rpx solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.my-advance-amount {
+  font-size: 48rpx;
+  color: #ff681d;
+}
+.order-head {
+  height: 68rpx;
+  border-bottom: 1rpx solid #ccc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.order-body {
+  display: flex;
+  flex-wrap: wrap;
+  line-height: 2;
+  padding: 10rpx 0;
+}
+.info-item {
+  flex: 1 50%;
+}

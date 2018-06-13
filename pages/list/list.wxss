@@ -103,9 +103,6 @@
   border-color: #0068b7;
   background: #eff4fa;
 }
-.extra {
-  opacity: 0;
-}
 .selected-icon {
   position: absolute;
   right: 0;

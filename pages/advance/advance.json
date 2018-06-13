@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "预付款记录",
+  "usingComponents": {
+    "filter-layer": "/components/filterLayer/filterLayer"
+  }
+}

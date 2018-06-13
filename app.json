@@ -1,14 +1,20 @@
 {
   "pages": [
+    "pages/index/index",
+    "pages/password/password",
+    "pages/personal/personal",
+    "pages/account/account",
+    "pages/finance/finance",
+    "pages/advanceDetail/advanceDetail",
+    "pages/advance/advance",
+    "pages/mine/mine",
+    "pages/cart/cart",
+    "pages/category/category",
     "pages/detail/detail",
     "pages/list/list",
-    "pages/mine/mine",
-    "pages/password/password",
+    "pages/resetPwd/resetPwd",
     "pages/register/register",
-    "pages/login/login",
-    "pages/index/index",
-    "pages/cart/cart",
-    "pages/category/category"
+    "pages/login/login"
   ],
   "tabBar": {
     "color": "#666",

@@ -1,5 +1,5 @@
 {
-  "navigationBarTitleText": "密码管理",
+  "navigationBarTitleText": "基本资料",
   "usingComponents": {
     "menu-list": "/components/menuList/menuList"
   }

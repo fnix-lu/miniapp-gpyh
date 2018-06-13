@@ -24,11 +24,8 @@
             autoplay
             circular
             interval="3000">
-      <swiper-item>
-        <image class="slider-img" src="https://p1.gpyh.com/webnew/img/banner/4/67f30bea-e6ae-4433-889f-4d97a602c011.jpg" mode="aspectFill" />
-      </swiper-item>
-      <swiper-item>
-        <image class="slider-img" src="https://p3.gpyh.com/webnew/img/banner/4/a4a0a52e-f31f-44cf-9857-fe368100f1b6.jpg" mode="aspectFill" />
+      <swiper-item wx:for="{{ bannerList }}">
+        <navigator class="banner-link" url="{{ item.linkUrl }}"><image class="slider-img" src="{{ item.pictureUrl }}" mode="aspectFill" /></navigator>
       </swiper-item>
     </swiper>
     <view class="notice">
@@ -36,11 +33,8 @@
               vertical
               autoplay
               circular>
-        <swiper-item>
-          <navigator>【新品】博世电动工具，让科技成就生活之美！</navigator>
-        </swiper-item>
-        <swiper-item>
-          <navigator>【公告】公告标题！</navigator>
+        <swiper-item wx:for="{{ articleList }}">
+          <navigator class="ellipsis">{{ item.title }}</navigator>
         </swiper-item>
       </swiper>
       <navigator class="notice-more">更多 >></navigator>
@@ -72,59 +66,21 @@
     <view class="section bc-white">
       <view class="section-title">工具分类</view>
       <view class="section-list">
-        <view class="section-item">
-          <image class="section-item-img" src="../../assets/img/base/gpyh.png" />
-          <text class="section-item-txt">手动工具</text>
-        </view>
-        <view class="section-item">
-          <image class="section-item-img" src="../../assets/img/base/gpyh.png" />
-          <text class="section-item-txt">电动工具</text>
-        </view>
-        <view class="section-item">
-          <image class="section-item-img" src="../../assets/img/base/gpyh.png" />
-          <text class="section-item-txt">气动工具</text>
-        </view>
+        <navigator class="section-item" wx:for="{{ tool.category }}">
+          <image class="section-item-img" src="{{ item.pictureUrl || '/assets/img/base/gpyh.png' }}" />
+          <text class="section-item-txt">{{ item.name }}</text>
+        </navigator>
+        <navigator class="section-item extra" wx:for="{{ tool.extra }}"></navigator>
       </view>
     </view>
     <view class="section bc-white">
       <view class="section-title">紧固件分类</view>
       <view class="section-list">
-        <view class="section-item">
-          <image class="section-item-img" src="../../assets/img/base/gpyh.png" />
-          <text class="section-item-txt">螺栓</text>
-        </view>
-        <view class="section-item">
-          <image class="section-item-img" src="../../assets/img/base/gpyh.png" />
-          <text class="section-item-txt">螺母</text>
-        </view>
-        <view class="section-item">
-          <image class="section-item-img" src="../../assets/img/base/gpyh.png" />
-          <text class="section-item-txt">垫圈</text>
-        </view>
-        <view class="section-item">
-          <image class="section-item-img" src="../../assets/img/base/gpyh.png" />
-          <text class="section-item-txt">组合螺丝</text>
-        </view>
-        <view class="section-item">
-          <image class="section-item-img" src="../../assets/img/base/gpyh.png" />
-          <text class="section-item-txt">铆接类</text>
-        </view>
-        <view class="section-item">
-          <image class="section-item-img" src="../../assets/img/base/gpyh.png" />
-          <text class="section-item-txt">螺钉</text>
-        </view>
-        <view class="section-item">
-          <image class="section-item-img" src="../../assets/img/base/gpyh.png" />
-          <text class="section-item-txt">紧定</text>
-        </view>
-        <view class="section-item">
-          <image class="section-item-img" src="../../assets/img/base/gpyh.png" />
-          <text class="section-item-txt">钻尾</text>
-        </view>
-        <view class="section-item">
-          <image class="section-item-img" src="../../assets/img/base/gpyh.png" />
-          <text class="section-item-txt">膨胀系列</text>
-        </view>
+        <navigator class="section-item" wx:for="{{ fastener.category }}">
+          <image class="section-item-img" src="{{ item.pictureUrl || '/assets/img/base/gpyh.png' }}" />
+          <text class="section-item-txt">{{ item.name }}</text>
+        </navigator>
+        <navigator class="section-item extra" wx:for="{{ fastener.extra }}"></navigator>
       </view>
     </view>
   </scroll-view>

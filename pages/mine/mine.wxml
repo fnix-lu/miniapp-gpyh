@@ -1,6 +1,6 @@
 <scroll-view class="container" scroll-y>
   <view style="padding-bottom: 1rpx;">
-    <view class="info-preview" wx:if="{{ false }}">
+    <view class="info-preview" wx:if="{{ userInfo }}">
       <view class="operation-bar">
         <navigator class="setting">
           <image class="i32" src="../../assets/img/mine/setting.png" />
@@ -32,7 +32,7 @@
       </view>
     </view>
     <view class="not-login" wx:else><navigator class="to-log-reg" url="/pages/login/login">登录/注册</navigator></view>
-    <view class="blk-radius bc-white m20-x datainfo">
+    <view class="blk-mode1 bc-white m20-x datainfo">
       <navigator class="datainfo-item">
         <view>199</view>
         <view>我的收藏</view>
@@ -52,6 +52,6 @@
     </view>
     <menu-block options="{{ menuOrder }}" />
     <menu-block options="{{ menuFinance }}" />
-    <menu-list list="{{ menuList }}" />
+    <menu-list list="{{ menuList }}" mode="1" />
   </view>
 </scroll-view>

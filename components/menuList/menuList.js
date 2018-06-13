@@ -1,5 +1,6 @@
 Component({
   properties: {
-    list: Object
+    list: Object,
+    mode: Number
   }
 })

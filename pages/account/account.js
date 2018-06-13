@@ -1,25 +1,42 @@
-// pages/password/password.js
+// pages/account/account.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    menuList: [
+    menuList1: [
       {
-        name: '登录密码',
+        name: '基本资料',
         isLink: true,
         content: ''
       }, {
-        name: '支付密码管理',
-        tip: '在预付款支付和白条支付时需要输入的密码', 
+        name: '密码管理',
         isLink: true,
         content: ''
       }, {
-        name: '预付款免验支付',
-        tip: '在预付款支付时，付款金额 ≤ 自定义额度，无需输入短信验证码',         
+        name: '收货地址管理',
         isLink: true,
-        content: '关闭'
+        content: ''
+      }
+    ],
+    menuList2: [
+      {
+        name: '企业设置',
+        isLink: true,
+        content: ''
+      }, {
+        name: '发票信息',
+        isLink: true,
+        content: ''
+      }, {
+        name: '售后服务',
+        isLink: true,
+        content: ''
+      }, {
+        name: '建议反馈',
+        isLink: true,
+        content: ''
       }
     ]
   },

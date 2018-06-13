@@ -1,25 +1,35 @@
-// pages/password/password.js
+// pages/advanceDetail/advanceDetail.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    menuList: [
+    detailList: [
       {
-        name: '登录密码',
-        isLink: true,
+        name: '流水号',
+        isLink: false,
+        content: '18011001100'
+      }, {
+        name: '交易类型',
+        isLink: false,
+        content: '充值'
+      }, {
+        name: '支付方式',
+        isLink: false,
         content: ''
       }, {
-        name: '支付密码管理',
-        tip: '在预付款支付和白条支付时需要输入的密码', 
-        isLink: true,
+        name: '单据类型',
+        isLink: false,
+        content: '移动订单'
+      }, {
+        name: '单据号',
+        isLink: false,
         content: ''
       }, {
-        name: '预付款免验支付',
-        tip: '在预付款支付时，付款金额 ≤ 自定义额度，无需输入短信验证码',         
-        isLink: true,
-        content: '关闭'
+        name: '支付时间',
+        isLink: false,
+        content: '2018-01-01 00:00:00'
       }
     ]
   },

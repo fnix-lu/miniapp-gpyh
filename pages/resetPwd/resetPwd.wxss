@@ -1,0 +1,67 @@
+.container {
+  padding: 55rpx 70rpx;
+}
+.row {
+  margin-bottom: 30rpx;
+  border: 1rpx solid #ccc;
+  border-radius: 8rpx;
+  height: 78rpx;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+.input {
+  height: 100%;
+  padding: 0 30rpx;
+  flex: 1;
+}
+.calc-code {
+  height: 100%;
+  width: 238rpx;
+  background: #edad25;
+}
+.msg-code {
+  background: transparent;
+  font-size: 24rpx;
+  width: 196rpx;
+  height: 100%;
+  line-height: 78rpx;
+  color: #0068b7;
+}
+.msg-code::after {
+  border: none;
+}
+.split {
+  width: 0;
+  height: 40rpx;
+  border-right: 1rpx solid #ccc;
+}
+.step-title {
+  margin-bottom: 30rpx;
+  font-size: 28rpx;
+  line-height: 1;
+}
+.success-img {
+  width: 120rpx;
+  height: 120rpx;
+  display: block;
+  margin: auto;
+}
+.success-txt {
+  text-align: center;
+  margin: 40rpx 0 50rpx;
+  font-size: 28rpx;
+}
+.btns {
+  display: flex;
+  justify-content: space-between;
+}
+.to-home,
+.to-login {
+  width: 280rpx;
+  margin: 0;
+}
+.to-home::after,
+.to-login::after {
+  border: none;
+}

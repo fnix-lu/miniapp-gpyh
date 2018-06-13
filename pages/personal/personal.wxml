@@ -1,0 +1,7 @@
+<!--pages/personal/personal.wxml-->
+<scroll-view class="container">
+  <view class="blk-mode2 head-img-block bc-white">
+    <image class="head-img" src="/assets/img/base/gpyh.png" />
+  </view>
+  <menu-list mode="2" list="{{ personalInfo }}" />
+</scroll-view>

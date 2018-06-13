@@ -1,0 +1,4 @@
+<!--pages/finance/finance.wxml-->
+<scroll-view class="container bc-white">
+  <menu-list list="{{ menuList }}" mode="2" />
+</scroll-view>
