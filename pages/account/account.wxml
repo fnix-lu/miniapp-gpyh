@@ -1,5 +1,9 @@
 <!--pages/account/account.wxml-->
 <scroll-view class="container" scroll-y>
-  <menu-list mode="2" list="{{ menuList1 }}" />
-  <menu-list mode="2" list="{{ menuList2 }}" />
+  <content-block>
+    <menu-list list="{{ menuList1 }}" />
+  </content-block>
+  <content-block>
+    <menu-list list="{{ menuList2 }}" />
+  </content-block>
 </scroll-view>

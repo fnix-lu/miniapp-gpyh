@@ -2,13 +2,12 @@
 
 .menu-list {
   padding: 0 15rpx;
-  margin-bottom: 20rpx;
 }
 .item {
   border-top: 1rpx solid #ccc;
   padding: 24rpx 15rpx 24rpx 30rpx;
 }
-.item-main {
+.item-inner {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -21,8 +20,7 @@
   align-items: center;
 }
 .item-content {
-  color: #00913a;
-  margin-right: 20rpx;
+  margin-right: 10rpx;
 }
 .item-tip {
   color: #ff2a2a;

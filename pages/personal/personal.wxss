@@ -1,11 +1,4 @@
 /* pages/personal/personal.wxss */
-.head-img-block {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  padding: 20rpx 0;
-}
 .head-img {
   width: 180rpx;
   height: 180rpx;

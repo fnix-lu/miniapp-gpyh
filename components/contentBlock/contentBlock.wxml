@@ -1,0 +1,4 @@
+<!--components/contentBlock/contentBlock.wxml-->
+<view class="block {{ modeClass }}">
+  <slot></slot>
+</view>

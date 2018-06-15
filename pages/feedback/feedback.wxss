@@ -1,0 +1,7 @@
+/* pages/feedback/feedback.wxss */
+.feedback-item {
+  border: 1rpx solid #ccc;
+  border-radius: 10rpx;
+  width: 100%;
+  box-sizing: border-box;
+}

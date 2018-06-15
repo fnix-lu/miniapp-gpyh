@@ -7,6 +7,9 @@
   border-bottom: 1rpx solid #ccc;
   position: relative;
 }
+.goods-item-last {
+  border-bottom: none;
+}
 .goods-imgbox {
   width: 158rpx;
   height: 158rpx;
@@ -48,9 +51,10 @@
 .goods-text {
   display: flex;
   flex-wrap: wrap;
+  margin: 16rpx 0;
 }
 .no-img {
-  margin: 20rpx 0;
+  /* margin: 20rpx 0; */
 }
 .goods-text-item {
   flex: 1 50%;

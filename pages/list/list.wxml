@@ -1,5 +1,5 @@
 <scroll-view class="container bc-white" scroll-y>
-  <search-bar raise-class="{{ false ? 'raise' : '' }}" />
+  <search-bar raise="{{ false }}" />
   <view class="search-tabs bc-white {{ false ? 'raise' : '' }}">
     <view class="tab-item {{ tabId == 0 ? 'tab-item-on' : '' }}">紧固件</view>
     <view class="tab-item {{ tabId == 1 ? 'tab-item-on' : '' }}">工具</view>

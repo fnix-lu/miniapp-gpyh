@@ -64,30 +64,7 @@ Page({
           url: ''
         }
       ]
-    },
-    menuList: [
-      {
-        name: '收货地址',
-        isLink: true,
-        content: ''
-      }, {
-        name: '发票信息',
-        isLink: true,
-        content: ''
-      }, {
-        name: '售后服务',
-        isLink: true,
-        content: ''
-      }, {
-        name: '客服热线',
-        isLink: false,
-        content: '0000-00000001'
-      }, {
-        name: '建议反馈',
-        isLink: true,
-        content: ''
-      }
-    ]
+    }
   },
 
   /**
@@ -95,12 +72,14 @@ Page({
    */
   onLoad: function (options) {
     var _this = this, app = getApp();
+    
+    var userInfo = wx.getStorageSync('userInfo');
 
     wx.request({
       url: app.globalData.rootUrl + '/PersonalCenter/getCustomerInfoCenterData',
       method: 'GET',
       header: {
-        'accessToken': ''
+        'accessToken': userInfo.userName + ':' + userInfo.token.accessToken
       },
       success: function (res) {
         console.log(res);

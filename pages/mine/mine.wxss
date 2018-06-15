@@ -101,9 +101,10 @@
 
 
 .datainfo {
-  margin-top: -36rpx;
+  margin-top: -56rpx;
   display: flex;
   padding: 30rpx 0;
+  overflow: hidden;
 }
 .datainfo-item {
   flex: 1;

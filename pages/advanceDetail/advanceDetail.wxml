@@ -3,5 +3,7 @@
   <view class="trade bc-white f28">
     交易金额：<text class="trade-amount bold">￥99999.99</text>
   </view>
-  <menu-list mode="2" list="{{ detailList }}" />
+  <content-block mode="2">
+    <menu-list list="{{ detailList }}" />
+  </content-block>
 </scroll-view>

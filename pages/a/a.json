@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "demo",
+  "usingComponents": {
+    "content-block": "/components/contentBlock/contentBlock"
+  }
+}

@@ -1,0 +1,11 @@
+<!--pages/feedback/feedback.wxml-->
+<scroll-view class="container bc-white" scroll-y> 
+  <view class="p20">
+    <view>尊敬的用户，您好：</view>
+    <view>感谢您的配合和支持！为了给您提供更好的服务，我们希望收集您使用工品一号时的看法或建议。</view>
+    <textarea class="feedback-item p10 m20-y" placeholder="请输入您对工品一号的反馈意见，如哪里功能不好用、商品信息错误、哪里不会用等" />
+    <input class="feedback-item p10 m20-y" style="height: 80rpx" placeholder="请留下您的联系方式" />
+    <button class="btn btn-primary m20-y">提交</button>
+    <view>如有疑问，您还可以致电我们的专属客服：<text class="green">0512-00001111</text></view>
+  </view>
+</scroll-view>

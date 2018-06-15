@@ -1,6 +1,6 @@
-<view class="{{ mode == 1 ? 'blk-mode1' : '' }} {{ mode == 2 ? 'blk-mode2': '' }} menu-list bc-white">
+<view class="menu-list">
   <navigator class="item {{ index === 0 ? 'item-first' : '' }}" wx:for="{{ list }}">
-    <view class="item-main">
+    <view class="item-inner">
       <view>{{ item.name }}</view>
       <view class="content-box">
         <text class="item-content">{{ item.content }}</text>

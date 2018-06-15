@@ -1,0 +1,20 @@
+/* components/contentBlock/contentBlock.wxss */
+.block {
+  background: #fff;
+  position: relative;
+}
+.mode1 {
+  margin: 0 0 20rpx;
+}
+.mode2 {
+  margin: 0 0 20rpx;
+  border-top: 1rpx solid #ccc;
+  border-bottom: 1rpx solid #ccc;
+}
+.mode3 {
+  margin: 20rpx;
+}
+.mode4 {
+  margin: 20rpx;
+  border-radius: 10rpx;
+}

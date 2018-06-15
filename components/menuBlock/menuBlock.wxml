@@ -1,7 +1,7 @@
-<view class="blk-mode1 bc-white m20-x">
+<view>
   <view class="block-head">
     <text>{{ options.title }}</text>
-    <navigator class="block-more" url="{{ options.link.url }}">
+    <navigator class="f-middle" url="{{ options.link.url }}">
       <text>{{ options.link.text }}</text>
       <image class="i24" src="../../assets/img/arrow/right.png" />
     </navigator>

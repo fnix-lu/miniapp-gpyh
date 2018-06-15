@@ -1,0 +1,93 @@
+<!--pages/statement/statement.wxml-->
+<scroll-view class="container">
+  <scroll-view class="main-scroll" scroll-y>
+    <view class="tabs bc-white">
+      <text class="tabs-item tabs-item-on">全部</text>
+      <text class="tabs-item">已立账</text>
+      <text class="tabs-item">已开票</text>
+      <text class="tabs-item">勾兑付款</text>
+    </view>
+    <content-block mode="5">
+      <view class="block-head">
+        <view class="f-middle">
+          <image class="i24" src="/assets/img/base/check_default.png" style="margin-right: 10rpx;" />
+          <text>对账单号：1234567890</text>
+        </view>
+        <view class="orange">已立账</view>
+      </view>
+      <view class="p1-y p20-x">
+        <view class="m20-y">对账日期：2018-01-01</view>
+        <view class="m20-y">对账金额：<text class="orange">-￥9999.99</text></view>
+        <view class="m20-y">操作人：xxx</view>
+        <view class="m20-y">操作时间：2018-01-01 00:00:00</view>
+      </view>
+      <button class="btn btn-primary to-detail">查看详情</button>
+    </content-block>
+    <content-block mode="5">
+      <view class="block-head">
+        <view class="f-middle">
+          <image class="i24" src="/assets/img/base/check_default.png" style="margin-right: 10rpx;" />
+          <text>对账单号：1234567890</text>
+        </view>
+        <view class="orange">已立账</view>
+      </view>
+      <view class="p1-y p20-x">
+        <view class="m20-y">对账日期：2018-01-01</view>
+        <view class="m20-y">对账金额：<text class="orange">-￥9999.99</text></view>
+        <view class="m20-y">操作人：xxx</view>
+        <view class="m20-y">操作时间：2018-01-01 00:00:00</view>
+      </view>
+      <button class="btn btn-primary to-detail">查看详情</button>
+    </content-block>
+    <content-block mode="5">
+      <view class="block-head">
+        <view class="f-middle">
+          <image class="i24" src="/assets/img/base/check_default.png" style="margin-right: 10rpx;" />
+          <text>对账单号：1234567890</text>
+        </view>
+        <view class="orange">已立账</view>
+      </view>
+      <view class="p1-y p20-x">
+        <view class="m20-y">对账日期：2018-01-01</view>
+        <view class="m20-y">对账金额：<text class="orange">-￥9999.99</text></view>
+        <view class="m20-y">操作人：xxx</view>
+        <view class="m20-y">操作时间：2018-01-01 00:00:00</view>
+      </view>
+      <button class="btn btn-primary to-detail">查看详情</button>
+    </content-block>
+    <content-block mode="5">
+      <view class="block-head">
+        <view class="f-middle">
+          <image class="i24" src="/assets/img/base/check_default.png" style="margin-right: 10rpx;" />
+          <text>对账单号：1234567890</text>
+        </view>
+        <view class="orange">已立账</view>
+      </view>
+      <view class="p1-y p20-x">
+        <view class="m20-y">对账日期：2018-01-01</view>
+        <view class="m20-y">对账金额：<text class="orange">-￥9999.99</text></view>
+        <view class="m20-y">操作人：xxx</view>
+        <view class="m20-y">操作时间：2018-01-01 00:00:00</view>
+      </view>
+      <button class="btn btn-primary to-detail">查看详情</button>
+    </content-block>
+  </scroll-view>
+  <!-- 底栏 -->
+  <view class="footbar">
+    <view class="footbar-aside p20-x">
+      <view class="footbar-aside-item">
+        <view class="f-middle">
+          <image class="i24" src="/assets/img/base/check_default.png" style="margin-right: 10rpx;" />
+          <text>全选</text>
+        </view>
+      </view>
+      <view class="footbar-aside-item">
+        <view>
+          已选中金额：<text class="orange">￥9999.99</text>
+        </view>
+      </view>
+    </view>
+    <view class="btn btn-primary footbar-main">去支付</view>
+  </view>
+  <!-- end 底栏 -->
+</scroll-view>

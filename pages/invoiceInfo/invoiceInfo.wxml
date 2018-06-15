@@ -1,0 +1,33 @@
+<!--pages/invoiceInfo/invoiceInfo.wxml-->
+<scroll-view class="container" scroll-y>
+  <view class="tabs bc-white">
+    <text class="tabs-item tabs-item-on">普通发票</text>
+    <text class="tabs-item">增值税专用发票</text>
+  </view>
+  <view class="bc-white center p20-y">
+    上传三证合一
+  </view>
+  <!-- 开票信息 -->
+  <content-block mode="2">
+    <content-block>
+      <view class="bold p20">
+        填写开票信息
+      </view>
+    </content-block>
+    <menu-list list="{{ info }}" />
+  </content-block>
+  <!-- 收票地址 -->
+  <content-block mode="2">
+    <content-block>
+      <view class="bold p20">
+        填写收票地址
+      </view>
+    </content-block>
+    <menu-list list="{{ address }}" />
+  </content-block>
+  <view class="bc-white p20 f-middle">
+    <image class="i24" src="/assets/img/base/check_default.png" style="margin-right: 10rpx;" />
+    <text>我确认以上信息准确无误</text>
+  </view>
+  <button class="btn btn-primary m20">保存</button>
+</scroll-view>

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "申请开票",
+  "usingComponents": {
+    "content-block": "/components/contentBlock/contentBlock"
+  }
+}

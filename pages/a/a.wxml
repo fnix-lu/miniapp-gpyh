@@ -1,0 +1,50 @@
+<!--pages/a/a.wxml-->
+<scroll-view class="container" scroll-y>
+  <content-block mode="3">
+    <view>slot</view>
+    <view>slot</view>
+    <view>slot</view>
+    <view>slot</view>
+    <view>slot</view>
+    <view>slot</view>
+  </content-block>
+  <content-block mode="4">
+    <view>slot</view>
+    <view>slot</view>
+    <view>slot</view>
+    <view>slot</view>
+    <view>slot</view>
+    <view>slot</view>
+    <view>slot</view>
+  </content-block>
+  <content-block mode="3">
+    <view>slot</view>
+    <view>slot</view>
+    <view>slot</view>
+    <view>slot</view>
+    <view>slot</view>
+    <view>slot</view>
+    <view>slot</view>
+  </content-block>
+  <content-block mode="2">
+    <view>slot</view>
+    <view>slot</view>
+    <view>slot</view>
+    <view>slot</view>
+    <view>slot</view>
+    <view>slot</view>
+    <view>slot</view>
+  </content-block>
+  <content-block mode="1">
+    <view>slot</view>
+    <view>slot</view>
+    <view>slot</view>
+    <view>slot</view>
+    <view>slot</view>
+    <view>slot</view>
+    <view>slot</view>
+  </content-block>
+
+
+
+</scroll-view>

@@ -1,6 +1,6 @@
 <scroll-view class="container">
   <search-bar />
-  <view class="category-block">
+  <view class="abs-view top88 bottom0 category-block">
     <!-- 左 -->
     <scroll-view class="category-main" scroll-y>
       <view class="category-item ellipsis category-item-on">全部产品</view>

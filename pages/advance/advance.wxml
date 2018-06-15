@@ -7,43 +7,17 @@
     <filter-layer style="flex: 1" />
     <filter-layer style="flex: 1" />
   </view>
-  <view class="blk-mode3 bc-white p20-x">
-    <view class="order-head">
+  <content-block mode="4">
+    <view class="block-head">
       <text>流水号：18011001100</text>
       <text>2018-01-01 00:00:00</text>
     </view>
-    <view class="order-body">
-      <text class="info-item">交易类型：订单</text>
-      <text class="info-item">单据号：1234567890</text>
-      <text class="info-item">单据类型：移动端订单</text>
-      <text class="info-item">支付方式：余额支付</text>
-      <text class="info-item">交易金额：-￥9233.00</text>
+    <view class="block-body p20-x p10-y">
+      <text class="info-item m10-y">交易类型：订单</text>
+      <text class="info-item m10-y">单据号：1234567890</text>
+      <text class="info-item m10-y">单据类型：移动端订单</text>
+      <text class="info-item m10-y">支付方式：余额支付</text>
+      <text class="info-item m10-y">交易金额：<text class="orange">-￥9233.00</text></text>
     </view>
-  </view>
-  <view class="blk-mode3 bc-white p20-x">
-    <view class="order-head">
-      <text>流水号：18011001100</text>
-      <text>2018-01-01 00:00:00</text>
-    </view>
-    <view class="order-body">
-      <text class="info-item">交易类型：订单</text>
-      <text class="info-item">单据号：1234567890</text>
-      <text class="info-item">单据类型：移动端订单</text>
-      <text class="info-item">支付方式：余额支付</text>
-      <text class="info-item">交易金额：-￥9233.00</text>
-    </view>
-  </view>
-  <view class="blk-mode3 bc-white p20-x">
-    <view class="order-head">
-      <text>流水号：18011001100</text>
-      <text>2018-01-01 00:00:00</text>
-    </view>
-    <view class="order-body">
-      <text class="info-item">交易类型：订单</text>
-      <text class="info-item">单据号：1234567890</text>
-      <text class="info-item">单据类型：移动端订单</text>
-      <text class="info-item">支付方式：余额支付</text>
-      <text class="info-item">交易金额：-￥9233.00</text>
-    </view>
-  </view>
+  </content-block>
 </scroll-view>

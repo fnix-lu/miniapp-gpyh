@@ -17,7 +17,7 @@
       </view>
     </view>
   </view>
-  <scroll-view class="index-scroll" scroll-y>
+  <scroll-view class="abs-view top88 bottom0" scroll-y>
     <swiper indicator-dots
             indicator-color="rgba(255,255,255,.5)"
             indicator-active-color="#f18f2b"

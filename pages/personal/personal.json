@@ -1,6 +1,7 @@
 {
   "navigationBarTitleText": "基本资料",
   "usingComponents": {
-    "menu-list": "/components/menuList/menuList"
+    "menu-list": "/components/menuList/menuList",
+    "content-block": "/components/contentBlock/contentBlock"
   }
 }

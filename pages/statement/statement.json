@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "订单对账",
+  "usingComponents": {
+    "content-block": "/components/contentBlock/contentBlock"
+  }
+}

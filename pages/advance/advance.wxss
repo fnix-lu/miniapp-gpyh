@@ -10,18 +10,9 @@
   font-size: 48rpx;
   color: #ff681d;
 }
-.order-head {
-  height: 68rpx;
-  border-bottom: 1rpx solid #ccc;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.order-body {
+.block-body {
   display: flex;
   flex-wrap: wrap;
-  line-height: 2;
-  padding: 10rpx 0;
 }
 .info-item {
   flex: 1 50%;

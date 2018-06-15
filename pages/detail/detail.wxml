@@ -1,6 +1,6 @@
 <!--pages/detail/detail.wxml-->
 <scroll-view class="container">
-  <scroll-view class="detail-scroll" scroll-y>
+  <scroll-view class="abs-view top0 bottom100" scroll-y>
     <!-- 商品图片 -->
     <swiper indicator-dots
             indicator-color="rgba(255,255,255,.5)"
@@ -15,101 +15,113 @@
     </swiper>
     <!-- end 商品图片  -->
     <!-- 商品名称/价格 -->
-    <view class="detail-block p20-x" style="color: #999">
-      <view class="share">
-        <image class="i32" src="/assets/img/base/share.png" />
-        <text>分享</text>
+    <content-block>
+      <view class="p20" style="color: #999">
+        <view class="share">
+          <image class="i32" src="/assets/img/base/share.png" />
+          <text>分享</text>
+        </view>
+        <view class="goods-name">
+          <image class="gpyh-self" src="/assets/img/base/gpyh_self.png" />
+          <text style="vertical-align: middle"> STANLEY/史丹利125件套 机工类 汽修工具 STANLEY/史丹利125件套 机工类 汽修工具</text>
+        </view>
+        <view>
+          <text>会员价：<text class="price-main f28">￥9999.99</text>/千支</text>
+        </view>
       </view>
-      <view class="goods-name">
-        <image class="gpyh-self" src="/assets/img/base/gpyh_self.png" />
-        <text style="vertical-align: middle"> STANLEY/史丹利125件套 机工类 汽修工具 STANLEY/史丹利125件套 机工类 汽修工具</text>
-      </view>
-      <view>
-        <text>会员价：<text class="price-main f28">￥9999.99</text>/千支</text>
-      </view>
-    </view>
+    </content-block>
     <!-- end 商品名称/价格 -->
     <!-- 基本信息 -->
-    <view class="detail-block p20-x">
-      <view class="goods-text">
-        <text class="goods-text-item">仓库：苏州自营仓</text>
-        <text class="goods-text-item">库存：1000.00千支</text>
-        <text class="goods-text-item">包装规格：1千支/包</text>
-        <text class="goods-text-item">起订量：1千支</text>
+    <content-block>
+      <view class="goods-text p20-x p10-y">
+        <text class="goods-text-item m10-y">仓库：苏州自营仓</text>
+        <text class="goods-text-item m10-y">库存：1000.00千支</text>
+        <text class="goods-text-item m10-y">包装规格：1千支/包</text>
+        <text class="goods-text-item m10-y">起订量：1千支</text>
       </view>
-    </view>
+    </content-block>
     <!-- end 基本信息 -->
     <!-- 信息切换 -->
-    <view class="detail-tabs bc-white">
-      <text class="detail-tabs-item detail-tabs-item-on">商品详情</text>
-      <text class="detail-tabs-item">图纸</text>
-      <text class="detail-tabs-item">相关商品</text>
-      <text class="detail-tabs-item">畅购商品</text>
+    <view class="tabs bc-white">
+      <text class="tabs-item tabs-item-on">商品详情</text>
+      <text class="tabs-item">图纸</text>
+      <text class="tabs-item">相关商品</text>
+      <text class="tabs-item">畅购商品</text>
     </view>
     <!-- end 信息切换 -->
     <!-- 商品详情 -->
     <view>
-      <view class="detail-block p20-x">
-        <view class="text-item bold">基本信息</view>
-        <view class="text-item">品牌：苏州法思特</view>
-        <view class="text-item">材质：304</view>
-        <view class="text-item">规格：M6*12</view>
-        <view class="text-item">表面处理：洗白</view>
-        <view class="text-item">交期：请联系客服确定</view>
-        <view class="text-item">包装数量：1千支/袋</view>
-        <view class="text-item">包装规格：10袋/盒</view>
-      </view>
-      <view class="detail-block p20-x">
-        <view class="text-item bold">基本信息</view>
-        <view class="text-item">品牌：苏州法思特</view>
-        <view class="text-item">材质：304</view>
-        <view class="text-item">规格：M6*12</view>
-        <view class="text-item">表面处理：洗白</view>
-        <view class="text-item">交期：请联系客服确定</view>
-        <view class="text-item">包装数量：1千支/袋</view>
-        <view class="text-item">包装规格：10袋/盒</view>
-      </view>
+      <content-block>
+        <view class="p20-x p1-y">
+          <view class="m20-y bold">基本信息</view>
+          <view class="m20-y">品牌：苏州法思特</view>
+          <view class="m20-y">材质：304</view>
+          <view class="m20-y">规格：M6*12</view>
+          <view class="m20-y">表面处理：洗白</view>
+          <view class="m20-y">交期：请联系客服确定</view>
+          <view class="m20-y">包装数量：1千支/袋</view>
+          <view class="m20-y">包装规格：10袋/盒</view>
+        </view>
+      </content-block>
+      <content-block>
+        <view class="p20-x p1-y">
+          <view class="m20-y bold">基本信息</view>
+          <view class="m20-y">品牌：苏州法思特</view>
+          <view class="m20-y">材质：304</view>
+          <view class="m20-y">规格：M6*12</view>
+          <view class="m20-y">表面处理：洗白</view>
+          <view class="m20-y">交期：请联系客服确定</view>
+          <view class="m20-y">包装数量：1千支/袋</view>
+          <view class="m20-y">包装规格：10袋/盒</view>
+        </view>
+      </content-block>
     </view>
     <!-- end 商品详情 -->
     <!-- 图纸 -->
-    <view class="detail-block p20-x">
-      <view class="text-item bold">图纸</view>
-      <image class="drawing" src="/assets/img/base/gpyh.png" />
-    </view>
+    <content-block>
+      <view class="p20-x">
+        <view class="p20-y bold">图纸</view>
+        <image class="drawing" src="/assets/img/base/gpyh.png" />
+      </view>
+    </content-block>
     <!-- end 图纸 -->
     <!-- 相关商品 -->
-    <view class="detail-block" style="padding-bottom: 0">
-      <view class="text-item bold p20-x">相关商品</view>
+    <content-block>
+      <view class="p20 bold" style="border-bottom: 1rpx solid #ccc">相关商品</view>
       <goods-list />
-    </view>
+    </content-block>
     <!-- end 相关商品 -->
     <!-- 畅购商品 -->
-    <view class="detail-block" style="padding-bottom: 0">
-      <view class="text-item bold p20-x">畅购商品</view>
+    <content-block>
+      <view class="p20 bold" style="border-bottom: 1rpx solid #ccc">畅购商品</view>
       <goods-list />
-    </view>
+    </content-block>
     <!-- end 畅购商品 -->
   </scroll-view>
-  <view class="detail-navbar">
-    <view class="navbar-btn">
-      <image class="i32" src="/assets/img/base/service.png" />
-      <text>客服</text>
+  <!-- 底栏 -->
+  <view class="footbar">
+    <view class="footbar-aside">
+      <view class="footbar-aside-item">
+        <image class="i32" src="/assets/img/base/service.png" />
+        <text>客服</text>
+      </view>
+      <view class="footbar-aside-item">
+        <image class="i32" src="/assets/img/base/cart_3.png" />
+        <text>购物车</text>
+      </view>
+      <view class="footbar-aside-item">
+        <image class="i32" src="/assets/img/base/collect_default.png" />
+        <text>收藏</text>
+      </view>
     </view>
-    <view class="navbar-btn">
-      <image class="i32" src="/assets/img/base/cart_3.png" />
-      <text>购物车</text>
-    </view>
-    <view class="navbar-btn">
-      <image class="i32" src="/assets/img/base/collect_default.png" />
-      <text>收藏</text>
-    </view>
-    <view class="btn btn-primary add-to-cart">加入购物车</view>
+    <view class="btn btn-primary footbar-main">加入购物车</view>
   </view>
+  <!-- end 底栏 -->
 </scroll-view>
 
-<view class="modal-shadow"></view>
+<view class="modal-shadow" hidden="{{ true }}"></view>
 
-<view class="modal side-bottom">
+<view class="modal side-bottom" hidden="{{ true }}">
   <scroll-view class="add-to-cart-scroll" scroll-y>
     <view class="main-info p20-x">
       <view class="imgbox">

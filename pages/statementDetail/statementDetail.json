@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "订单对账-详情",
+  "usingComponents": {
+    "content-block": "/components/contentBlock/contentBlock",
+    "goods-list": "/components/goodsList/goodsList"
+  }
+}

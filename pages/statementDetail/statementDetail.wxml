@@ -1,0 +1,38 @@
+<!--pages/statementDetail/statementDetail.wxml-->
+<scroll-view class="container" scroll-y>
+  <content-block>
+    <view class="company p20">公司名称：苏州工品一号</view>
+    <view class="main-info p20-x p10-y">
+      <text class="main-info-item m10-y">对账单号：1234567890</text>
+      <text class="main-info-item m10-y">对账单号：1234567890</text>
+      <text class="main-info-item m10-y">对账金额：<text class="orange">-￥9999.99</text></text>
+      <text class="main-info-item m10-y">对账日期：2018-01-01</text>
+      <text class="main-info-item m10-y">状态：已立账</text>
+      <text class="main-info-item m10-y">发票号：20180101001</text>
+      <text class="main-info-item m10-y">快递公司：申通快递</text>
+      <text class="main-info-item m10-y">快递单号：12345678901234</text>
+    </view>
+  </content-block>
+  <content-block mode="2">
+    <view class="block-head">
+      <view>送货单号：12564846513</view>
+      <view>送货日期：2018-01-01</view>
+    </view>
+    <goods-list />
+    <view class="block-foot">
+      <view></view>
+      <view>合计：￥9999.99（含运费：￥999.99）</view>
+    </view>
+  </content-block>
+  <content-block mode="2">
+    <view class="block-head">
+      <view>送货单号：12564846513</view>
+      <view>送货日期：2018-01-01</view>
+    </view>
+    <goods-list />
+    <view class="block-foot">
+      <view></view>
+      <view>合计：￥9999.99（含运费：￥999.99）</view>
+    </view>
+  </content-block>
+</scroll-view>

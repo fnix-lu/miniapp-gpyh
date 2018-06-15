@@ -1,4 +1,4 @@
-/* 全局样式 */
+/* 页面基础 */
 .container {
   background: #eee;
   color: #666;
@@ -11,7 +11,102 @@
   box-sizing: border-box;
 }
 
+/* 块定位 */
+.abs-view {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
 
+.top0 { top: 0; }
+.top80 { top: 80rpx; }
+.top88 { top: 88rpx; }
+
+.bottom0 { bottom: 0; }
+.bottom100 { bottom: 100rpx; }
+
+/* 字体 */
+.bold { font-weight: bold; }
+.f28 { font-size: 28rpx; }
+
+/* 颜色 */
+.bc-white { background-color: #fff; }
+
+.orange { color: #ff671c; }
+.green { color: #00913a; }
+
+.price-main { color: #ff671c; }
+
+/* 单行文本溢出省略 */
+.ellipsis {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+/* 透明补足元素 */
+.extra {
+  opacity: 0;
+}
+
+/* 对齐 */
+.left { text-align: left; }
+.right { text-align: right; }
+.center { text-align: center; }
+
+.f-middle {
+  display: flex;
+  align-items: center;
+}
+
+/* 图标 */
+.i24 { width: 24rpx; height: 24rpx; }
+.i32 { width: 32rpx; height: 32rpx; }
+.i44 { width: 44rpx; height: 44rpx; }
+
+/* 边距 */
+.m10 { margin: 10rpx; }
+.m10-x { margin-left: 10rpx; margin-right: 10rpx; }
+.m10-y { margin-top: 10rpx; margin-bottom: 10rpx; }
+
+.m20 { margin: 20rpx; }
+.m20-x { margin-left: 20rpx; margin-right: 20rpx; }
+.m20-y { margin-top: 20rpx; margin-bottom: 20rpx; }
+
+.p10 { padding: 10rpx; }
+.p10-x { padding-left: 10rpx; padding-right: 10rpx; }
+.p10-y { padding-top: 10rpx; padding-bottom: 10rpx; }
+
+.p20 { padding: 20rpx; }
+.p20-x { padding-left: 20rpx; padding-right: 20rpx; }
+.p20-y { padding-top: 20rpx; padding-bottom: 20rpx; }
+
+.p1-y { padding-top: 1rpx; padding-bottom: 1rpx; }
+
+/* 按钮 */
+.btn {
+  height: 80rpx;
+  font-size: 28rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn-primary {
+  background: #0068b7;
+  color: #fff;
+}
+.btn-default {
+  background: #eee;
+  color: #0068b7;
+}
+
+/* 层高 */
+.raise {
+  position: relative;
+  z-index: 100;
+}
+
+/* 模态框 */
 .modal {
   color: #666;
   font-size: 24rpx;
@@ -24,10 +119,6 @@
   bottom: 0;
   background: rgba(0, 0, 0, .3);
   z-index: 99;
-}
-.raise {
-  position: relative;
-  z-index: 100;
 }
 .side-right {
   position: fixed;
@@ -48,51 +139,8 @@
   z-index: 100;
 }
 
-
-.m20-x {
-  margin-left: 20rpx;
-  margin-right: 20rpx;
-}
-.p20-x {
-  padding-left: 20rpx;
-  padding-right: 20rpx;
-}
-
-
-.bold { font-weight: bold; }
-.f28 { font-size: 28rpx; }
-
-
-.left { text-align: left; }
-.right { text-align: right; }
-.center { text-align: center; }
-
-
-.bc-white { background-color: #fff; }
-
-
-.i24 { width: 24rpx; height: 24rpx; }
-.i32 { width: 32rpx; height: 32rpx; }
-.i44 { width: 44rpx; height: 44rpx; }
-
-
-.btn {
-  height: 80rpx;
-  line-height: 80rpx;
-  font-size: 28rpx;
-  text-align: center;
-}
-.btn-primary {
-  background: #0068b7;
-  color: #fff;
-}
-.btn-default {
-  background: #eee;
-  color: #0068b7;
-}
-
-
-.blk-mode1 {
+/* 内容块 */
+/* .blk-mode1 {
   border-radius: 10rpx;
   overflow: hidden;
   margin-bottom: 20rpx;
@@ -109,19 +157,76 @@
 .blk-mode3 {
   overflow: hidden;
   margin-bottom: 20rpx;
+} */
+.block-head {
+  padding: 20rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1rpx solid #ccc;
+}
+.block-foot {
+  padding: 20rpx;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-
-.price-main {
-  color: #ff671c;
+/* 切换标签 */
+.tabs {
+  height: 79rpx;
+  border-bottom: 1rpx solid #ccc;
+  display: flex;
+  justify-content: center;
+}
+.tabs-item {
+  flex: 1 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.tabs-item::after {
+  content: '';
+  width: 0;
+  height: 100%;
+  border-right: 1rpx solid #ccc;
+  position: absolute;
+  top: 0;
+  right: -1rpx;
+}
+.tabs-item-on {
+  background: #eff4fa;
+  color: #0068b7;
 }
 
-.ellipsis {
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+/* 底栏 */
+.footbar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.extra {
-  opacity: 0;
+/* 底栏 带主按钮 */
+.footbar-aside {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1rpx solid #ccc;
+  height: 100%;
+}
+.footbar-aside-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.footbar-main {
+  width: 240rpx;
+  height: 100%;
 }

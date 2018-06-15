@@ -32,26 +32,30 @@
       </view>
     </view>
     <view class="not-login" wx:else><navigator class="to-log-reg" url="/pages/login/login">登录/注册</navigator></view>
-    <view class="blk-mode1 bc-white m20-x datainfo">
-      <navigator class="datainfo-item">
-        <view>199</view>
-        <view>我的收藏</view>
-      </navigator>
-      <navigator class="datainfo-item">
-        <view>199</view>
-        <view>我的非标</view>
-      </navigator>
-      <navigator class="datainfo-item">
-        <view>999999.99</view>
-        <view>我的预付款</view>
-      </navigator>
-      <navigator class="datainfo-item">
-        <view>199</view>
-        <view>我的足迹</view>
-      </navigator>
-    </view>
-    <menu-block options="{{ menuOrder }}" />
-    <menu-block options="{{ menuFinance }}" />
-    <menu-list list="{{ menuList }}" mode="1" />
+    <content-block mode="4">
+      <view class="datainfo">
+        <navigator class="datainfo-item">
+          <view>199</view>
+          <view>我的收藏</view>
+        </navigator>
+        <navigator class="datainfo-item">
+          <view>199</view>
+          <view>我的非标</view>
+        </navigator>
+        <navigator class="datainfo-item">
+          <view>999999.99</view>
+          <view>我的预付款</view>
+        </navigator>
+      </view>
+    </content-block>
+    <content-block mode="4">
+      <menu-block options="{{ menuOrder }}" />
+    </content-block>
+    <content-block mode="4">
+      <menu-block options="{{ menuFinance }}" />
+    </content-block>
+    <content-block mode="4">
+      <menu-list list="{{ menuList }}" mode="1" />
+    </content-block>
   </view>
 </scroll-view>

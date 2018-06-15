@@ -49,13 +49,6 @@
   align-items: center;
 }
 
-.index-scroll {
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 88rpx;
-  bottom: 0;
-}
 
 .banner-link,
 .slider-img {

@@ -1,0 +1,12 @@
+/* pages/statementDetail/statementDetail.wxss */
+.company {
+  border-bottom: 1rpx dashed #ccc;
+}
+.main-info {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.main-info-item {
+  flex: 1 50%;
+}

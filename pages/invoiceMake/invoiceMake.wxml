@@ -1,0 +1,34 @@
+<!--pages/invoiceMake/invoiceMake.wxml-->
+<scroll-view class="container">
+  <scroll-view class="main-scroll" scroll-y>
+    <content-block mode="2">
+      <view class="block-head">
+        <view>送货单号：12564846513</view>
+        <view>送货日期：2018-01-01</view>
+      </view>
+      <goods-list />
+      <view class="block-foot">
+        <view></view>
+        <view>合计：￥9999.99（含运费：￥999.99）</view>
+      </view>
+    </content-block>
+  </scroll-view>
+  <!-- 底栏 -->
+  <view class="footbar">
+    <view class="footbar-aside p20-x">
+      <view class="footbar-aside-item">
+        <view class="f-middle">
+          <image class="i24" src="/assets/img/base/check_default.png" style="margin-right: 10rpx;" />
+          <text>全选</text>
+        </view>
+      </view>
+      <view class="footbar-aside-item">
+        <view>
+          已选中金额：<text class="orange">￥9999.99</text>
+        </view>
+      </view>
+    </view>
+    <view class="btn btn-primary footbar-main">去申请开票</view>
+  </view>
+  <!-- end 底栏 -->
+</scroll-view>
