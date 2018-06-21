@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "填写地址",
+  "usingComponents": {
+    "menu-list": "/components/menuList/menuList",
+    "content-block": "/components/contentBlock/contentBlock"
+  }
+}

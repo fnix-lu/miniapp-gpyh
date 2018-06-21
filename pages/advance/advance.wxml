@@ -3,9 +3,83 @@
   <view class="my-advance bc-white f28">
     我的预付款：<text class="my-advance-amount bold">￥99999.99</text>
   </view>
-  <view style="display: flex">
-    <filter-layer style="flex: 1" />
-    <filter-layer style="flex: 1" />
+  <view style="display: flex" class="{{ true ? 'raise' : '' }}">
+    <filter-layer style="flex: 1">
+      <view class="layer-list">
+        <view class="layer-item layer-item-on">
+          <text>充值</text>
+          <image class="i44 selected-icon" src="/assets/img/base/selected.png" />
+        </view>
+        <view class="layer-item layer-item-on">
+          <text>提现</text>
+          <image class="i44 selected-icon" src="/assets/img/base/selected.png" />
+        </view>
+        <view class="layer-item layer-item-on">
+          <text>订单支付</text>
+          <image class="i44 selected-icon" src="/assets/img/base/selected.png" />
+        </view>
+        <view class="layer-item">
+          <text>订单结案未发转余额</text>
+        </view>
+        <view class="layer-item">
+          <text>退货单收讫转余额</text>
+        </view>
+        <view class="layer-item">
+          <text>退货手续费/运费</text>
+        </view>
+        <view class="layer-item">
+          <text>支付立账单</text>
+        </view>
+        <view class="layer-item">
+          <text>拼团失败预付金转余额</text>
+        </view>
+        <view class="layer-item">
+          <text>支付拼团预付金</text>
+        </view>
+        <view class="layer-item">
+          <text>支付拼团尾款</text>
+        </view>
+        <view class="layer-item">
+          <text>月结客户支付尾款时选择月结预付金转余额</text>
+        </view>
+        <view class="layer-item">
+          <text>尾货订单取消转余额</text>
+        </view>
+        <view class="layer-item">
+          <text>尾货退货退款订单取消转余额</text>
+        </view>
+        <view class="layer-item">
+          <text>支付尾货订单</text>
+        </view>
+      </view>
+    </filter-layer>
+    <filter-layer style="flex: 1">
+      <view class="p20-x m20-y f28">成交时间</view>
+      <view class="picker-box p20-x m20-y">
+        <picker mode="date">
+          <view class="picker-date">2018.01.01</view>
+        </picker>
+        ~
+        <picker mode="date">
+          <view class="picker-date">2018.01.03</view>
+        </picker>
+      </view>
+      <view class="p20-x f28">时间标签</view>
+      <view class="layer-list">
+        <view class="layer-item layer-item-on layer-item-time">
+          <text>最近一周</text>
+          <image class="i44 selected-icon" src="/assets/img/base/selected.png" />
+        </view>
+        <view class="layer-item layer-item-on layer-item-time">
+          <text>最近一个月</text>
+          <image class="i44 selected-icon" src="/assets/img/base/selected.png" />
+        </view>
+        <view class="layer-item layer-item-on layer-item-time">
+          <text>最近三个月</text>
+          <image class="i44 selected-icon" src="/assets/img/base/selected.png" />
+        </view>
+      </view>
+    </filter-layer>
   </view>
   <content-block mode="4">
     <view class="block-head">
@@ -21,3 +95,5 @@
     </view>
   </content-block>
 </scroll-view>
+
+<view class="modal-shadow"></view>

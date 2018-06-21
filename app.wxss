@@ -23,10 +23,13 @@
 .top88 { top: 88rpx; }
 
 .bottom0 { bottom: 0; }
+.bottom80 { bottom: 80rpx; }
 .bottom100 { bottom: 100rpx; }
 
 /* 字体 */
 .bold { font-weight: bold; }
+/* .f20 { font-size: 20rpx; } */
+.f22 { font-size: 22rpx; }
 .f28 { font-size: 28rpx; }
 
 /* 颜色 */
@@ -34,6 +37,9 @@
 
 .orange { color: #ff671c; }
 .green { color: #00913a; }
+.gray { color: #999999; }
+.blue { color: #0068b7; }
+.red { color: #ff2a2a; }
 
 .price-main { color: #ff671c; }
 
@@ -73,6 +79,10 @@
 .m20-x { margin-left: 20rpx; margin-right: 20rpx; }
 .m20-y { margin-top: 20rpx; margin-bottom: 20rpx; }
 
+.m30 { margin: 30rpx; }
+.m30-x { margin-left: 30rpx; margin-right: 30rpx; }
+.m30-y { margin-top: 30rpx; margin-bottom: 30rpx; }
+
 .p10 { padding: 10rpx; }
 .p10-x { padding-left: 10rpx; padding-right: 10rpx; }
 .p10-y { padding-top: 10rpx; padding-bottom: 10rpx; }
@@ -98,6 +108,22 @@
 .btn-default {
   background: #eee;
   color: #0068b7;
+}
+.btn-hollow {
+  background: #fff;
+}
+.btn-hollow::after {
+  border-color: #0068b7;
+}
+
+/* 底部重置确认按钮容器 */
+.footbtns {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 80rpx;
+  display: flex;
 }
 
 /* 层高 */
@@ -140,24 +166,6 @@
 }
 
 /* 内容块 */
-/* .blk-mode1 {
-  border-radius: 10rpx;
-  overflow: hidden;
-  margin-bottom: 20rpx;
-  margin-left: 20rpx;
-  margin-right: 20rpx;
-}
-.blk-mode2 {
-  overflow: hidden;
-  margin-top: 20rpx;
-  margin-bottom: 20rpx;
-  border-top: 1rpx solid #ccc;
-  border-bottom: 1rpx solid #ccc;
-}
-.blk-mode3 {
-  overflow: hidden;
-  margin-bottom: 20rpx;
-} */
 .block-head {
   padding: 20rpx;
   display: flex;
@@ -170,6 +178,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  border-top: 1rpx solid #ccc;
 }
 
 /* 切换标签 */
@@ -210,6 +219,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  box-sizing: border-box;
 }
 
 /* 底栏 带主按钮 */
@@ -229,4 +239,44 @@
 .footbar-main {
   width: 240rpx;
   height: 100%;
+}
+
+/* 表单样式 */
+.input-box {
+  border: 1rpx solid #ccc;
+  border-radius: 8rpx;
+  height: 78rpx;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+.error {
+  padding: 15rpx 30rpx;
+  color: #ff2a2a;
+}
+.input {
+  height: 100%;
+  padding: 0 30rpx;
+  flex: 1;
+}
+.calc-code {
+  height: 100%;
+  width: 238rpx;
+  background: #edad25;
+}
+.msg-code {
+  background: transparent;
+  font-size: 24rpx;
+  width: 196rpx;
+  height: 100%;
+  line-height: 78rpx;
+  color: #0068b7;
+}
+.msg-code::after {
+  border: none;
+}
+.split {
+  width: 0;
+  height: 40rpx;
+  border-right: 1rpx solid #ccc;
 }

@@ -1,0 +1,109 @@
+<!--pages/orderDetail/orderDetail.wxml-->
+<scroll-view class="container">
+  <scroll-view class="abs-view top0 bottom100" scroll-y>
+    <!-- 收货地址 -->
+    <content-block>
+      <view class="p20 receiver">
+        <view>
+          <image class="i32" src="/assets/img/base/location_2.png" />
+        </view>
+        <view class="receiver-text">
+          <view class="receiver-contact">
+            <text>收货人：张三</text>
+            <text>15600001111</text>
+          </view>
+          <view class="receiver-address">
+            详细地址详细地址详细地址详细地址详细地址详细地址详细地址详细地址详细地址
+          </view>
+        </view>
+      </view>
+    </content-block>
+    <!-- 商品 -->
+    <content-block>
+      <view class="block-head">
+        <text>普通订单、月结订单</text>
+        <text class="orange">已发货 | 已支付</text>
+      </view>
+      <view class="block-body">
+        <!-- 商品项 -->
+        <view class="goods-item p20">
+          <!-- 图片 -->
+          <view class="goods-imgbox">
+            <image class="goods-img" src="/assets/img/base/gpyh.png" />
+          </view>
+          <!-- 信息 -->
+          <view class="goods-infobox">
+            <view>316 DIN7504K M6*50 洗白 THE 六角法兰面钻尾螺钉</view>
+            <view class="gray">规格：15件套微型螺丝刀组套A</view>
+          </view>
+          <!-- 价格数量 -->
+          <view class="goods-pricebox right">
+            <view class="bold">￥2488.00</view>
+            <view class="gray f22">x0.5千支</view>
+          </view>
+          <button class="btn btn-hollow">退货</button>
+        </view>
+        <!-- 商品项 -->
+        <view class="goods-item p20 goods-item-last">
+          <!-- 图片 -->
+          <view class="goods-imgbox">
+            <image class="goods-img" src="/assets/img/base/gpyh.png" />
+          </view>
+          <!-- 信息 -->
+          <view class="goods-infobox">
+            <view>316 DIN7504K M6*50 洗白 THE 六角法兰面钻尾螺钉</view>
+            <view class="gray">规格：15件套微型螺丝刀组套A</view>
+          </view>
+          <!-- 价格数量 -->
+          <view class="goods-pricebox right">
+            <view class="bold">￥2488.00</view>
+            <view class="gray f22">x0.5千支</view>
+          </view>
+          <button class="btn btn-hollow">退货</button>
+        </view>
+        <view class="p10-y p20-x">
+          <view class="price-item m10-y">
+            <text>运费</text>
+            <text>￥0.00</text>
+          </view>
+          <view class="price-item m10-y">
+            <text>优惠券</text>
+            <text>￥-10.00</text>
+          </view>
+          <view class="price-item m10-y">
+            <text>现金券</text>
+            <text>￥-50.00</text>
+          </view>
+          <view class="price-item m10-y">
+            <text>实付款（含运费）</text>
+            <text>￥9999.99</text>
+          </view>
+        </view>
+      </view>
+    </content-block>
+    <!-- 订单信息 -->
+    <content-block>
+      <view class="p20-x p10-y">
+        <view class="m10-y bold">订单信息</view>
+        <view class="m10-y">订单号：00000000000</view>
+        <view class="m10-y">下单时间：2018-01-01 00:00:00</view>
+        <view class="m10-y">支付方式：工品白条</view>
+        <view class="m10-y">订单实付金额：￥9999.00</view>
+        <view class="m10-y">本单成长值：99</view>
+      </view>
+    </content-block>
+    <!-- 配送信息 -->
+    <content-block>
+      <view class="p20-x p10-y">
+        <view class="m10-y bold">配送信息</view>
+        <view class="m10-y">发货仓库：苏州自营仓</view>
+        <view class="m10-y">货运方式：快递</view>
+        <view class="m10-y">货运公司：中通快递</view>
+        <view class="m10-y">货运单号：00000000000000</view>
+      </view>
+    </content-block>
+  </scroll-view>
+  <view class="footbar bc-white ">
+    <button class="btn btn-primary">整单退货</button>
+  </view>
+</scroll-view>

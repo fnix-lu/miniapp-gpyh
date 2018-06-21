@@ -1,34 +1,34 @@
 <scroll-view class="container bc-white" scroll-y>
   <view style="padding: 55rpx 70rpx;">
     <block wx:if="{{ step == 1 }}">
-      <view class="row">
+      <view class="input-box">
         <input class="input" type="text" placeholder="用户名" />
       </view>
       <view class="error">请输入用户名</view>
-      <view class="row">
+      <view class="input-box">
         <input class="input" type="text" placeholder="密码" password />
       </view>
       <view class="error">请输入密码</view>
-      <view class="row">
+      <view class="input-box">
         <input class="input" type="text" placeholder="确认密码" password />
       </view>
       <view class="error">请再次输入密码</view>
-      <view class="row">
+      <view class="input-box">
         <input class="input" type="text" placeholder="手机号" />
       </view>
       <view class="error">请输入用户名</view>
-      <view class="row">
+      <view class="input-box">
         <input class="input" type="text" placeholder="计算值" />
         <image class="calc-code" src="../../assets/img/base/gpyh.png" />
       </view>
       <view class="error">请输入计算值</view>
-      <view class="row">
+      <view class="input-box">
         <input class="input" type="text" placeholder="短信验证码" />
         <view class="split"></view>
         <button class="msg-code">获取验证码</button>
       </view>
       <view class="error">请输入短信验证码</view>
-      <view class="row">
+      <view class="input-box">
         <picker mode="region" class="picker-region">
           <input class="input" type="text" placeholder="所在地区" disabled />
         </picker>

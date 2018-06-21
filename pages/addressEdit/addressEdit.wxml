@@ -1,0 +1,21 @@
+<!--pages/addressEdit/addressEdit.wxml-->
+<scroll-view class="container bc-white">
+  <content-block mode="2">
+    <menu-list />
+  </content-block>
+  <view class="options p20-x">
+    <view class="f-middle options-item">
+      <image class="i24" src="/assets/img/base/check_default.png" />
+      <text>放单</text>
+    </view>
+    <view class="f-middle options-item">
+      <image class="i24" src="/assets/img/base/check_default.png" />
+      <text>显示价格</text>
+    </view>
+    <view class="f-middle options-item">
+      <image class="i24" src="/assets/img/base/check_default.png" />
+      <text>设为默认地址</text>
+    </view>
+  </view>
+  <button class="btn btn-primary m20-x">保存</button>
+</scroll-view>

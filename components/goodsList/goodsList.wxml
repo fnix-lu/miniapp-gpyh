@@ -26,6 +26,9 @@
     </view>
   </view>
   <view class="goods-item">
+    <view style="margin-right: 10rpx;">
+      <image class="i24" src="/assets/img/base/check_default.png" />
+    </view>
     <view class="goods-imgbox">
       <image class="goods-img" />
       <image class="goods-member" src="/assets/img/base/gpyh_member.png" />
@@ -47,6 +50,9 @@
     </view>
   </view>
   <view class="goods-item">
+    <view style="margin-right: 10rpx;">
+      <image class="i24" src="/assets/img/base/check_default.png" />
+    </view>
     <view class="goods-imgbox">
       <image class="goods-img" />
       <image class="goods-member" src="/assets/img/base/gpyh_member.png" />

@@ -1,0 +1,12 @@
+/* pages/addressList/addressList.wxss */
+.i24 {
+  margin-right: 10rpx;
+}
+.contact {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10rpx;
+}
+.address-detail {
+  line-height: 1.5;
+}

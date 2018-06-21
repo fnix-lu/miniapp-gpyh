@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "送货单详情",
+  "usingComponents": {
+    "content-block": "/components/contentBlock/contentBlock"
+  }
+}

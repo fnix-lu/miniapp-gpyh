@@ -1,0 +1,27 @@
+/* pages/myNonstandard/myNonstandard.wxss */
+.multi-operation {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1rpx solid #ccc;
+}
+.i24 {
+  margin-right: 10rpx;
+}
+.list-item {
+  display: flex;
+  border-bottom: 1rpx solid #ccc;
+  position: relative;
+}
+.text-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.text-item {
+  width: 50%;
+  line-height: 1.5;
+}
+.item-operation {
+  position: absolute;
+  right: 20rpx;
+  bottom: 20rpx;
+}

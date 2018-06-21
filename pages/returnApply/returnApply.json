@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "退货申请",
+  "usingComponents": {
+    "menu-list": "/components/menuList/menuList",
+    "content-block": "/components/contentBlock/contentBlock"
+  }
+}

@@ -1,7 +1,12 @@
 /* pages/feedback/feedback.wxss */
-.feedback-item {
+.textarea-box {
   border: 1rpx solid #ccc;
-  border-radius: 10rpx;
-  width: 100%;
-  box-sizing: border-box;
+  border-radius: 8rpx;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+.textarea {
+  flex: 1;
+  padding: 20rpx 30rpx;
 }

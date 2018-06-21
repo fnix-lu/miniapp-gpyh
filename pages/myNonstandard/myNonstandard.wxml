@@ -1,0 +1,49 @@
+<!--pages/myNonstandard/myNonstandard.wxml-->
+<scroll-view class="container bc-white">
+  <view style="display: flex">
+    <filter-layer style="flex: 1"></filter-layer>
+    <filter-layer style="flex: 1"></filter-layer>
+    <filter-layer style="flex: 1"></filter-layer>
+    <filter-layer style="flex: 1"></filter-layer>
+    <filter-layer style="flex: 1"></filter-layer>
+  </view>
+  <view class="multi-operation p20">
+    <view class="f-middle">
+      <image class="i24" src="/assets/img/base/check_default.png" />
+      <text>全选</text>
+    </view>
+    <view class="f-middle">
+      <image class="i24" src="/assets/img/base/delete_active.png" />
+      <text>删除</text>
+    </view>
+  </view>
+  <scroll-view class="abs-view bottom0" style="top: 162rpx;" scroll-y>
+    <view class="list-item p20">
+      <view>
+        <image class="i24" src="/assets/img/base/check_default.png" />
+      </view>
+      <view>
+        <view>1008(碳钢) GB818 M5*35 蓝白锌 十字盘头机螺钉 三联盛 三联盛 三联盛 三联盛 三联盛</view>
+        <view class="m20-y text-list">
+          <text class="text-item">仓库：苏州自营仓</text>
+          <text class="text-item">库存：1000.00千支</text>
+          <text class="text-item">包装规格：1千支/包</text>
+          <text class="text-item">起订量：1千支</text>
+        </view>
+        <view>
+          <text>单价：<text class="orange f28">￥9999.99</text></text>
+        </view>
+      </view>
+      <view class="item-operation f-middle">
+        <view class="f-middle" style="margin-right: 20rpx;">
+          <image class="i24" src="/assets/img/base/delete.png" />
+          <text>删除</text>
+        </view>
+        <view class="f-middle">
+          <image class="i24" src="/assets/img/base/cart_2.png" />
+          <text>购买</text>
+        </view>
+      </view>
+    </view>
+  </scroll-view>
+</scroll-view>

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "我的非标",
+  "usingComponents": {
+    "filter-layer": "/components/filterLayer/filterLayer"
+  }
+}

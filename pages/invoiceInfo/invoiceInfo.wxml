@@ -4,25 +4,32 @@
     <text class="tabs-item tabs-item-on">普通发票</text>
     <text class="tabs-item">增值税专用发票</text>
   </view>
-  <view class="bc-white center p20-y">
+  <!-- <view class="bc-white center p20-y">
     上传三证合一
-  </view>
+  </view> -->
+  <content-block>
+    <view class="center p20-y">
+      上传三证合一
+    </view>
+  </content-block>
   <!-- 开票信息 -->
-  <content-block mode="2">
-    <content-block>
-      <view class="bold p20">
-        填写开票信息
+  <content-block>
+    <view class="block-head">
+      <view>
+        <text class="bold">填写开票信息</text>
+        <text class="f22 red">（所有信息均为必填）</text>
       </view>
-    </content-block>
+    </view>
     <menu-list list="{{ info }}" />
   </content-block>
   <!-- 收票地址 -->
-  <content-block mode="2">
-    <content-block>
-      <view class="bold p20">
-        填写收票地址
+  <content-block>
+    <view class="block-head">
+      <view>
+        <text class="bold">填写收票地址</text>
+        <text class="f22 red">（所有信息均为必填）</text>
       </view>
-    </content-block>
+    </view>
     <menu-list list="{{ address }}" />
   </content-block>
   <view class="bc-white p20 f-middle">

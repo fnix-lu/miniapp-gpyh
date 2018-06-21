@@ -1,7 +1,7 @@
 <!--pages/invoiceMake/invoiceMake.wxml-->
 <scroll-view class="container">
-  <scroll-view class="main-scroll" scroll-y>
-    <content-block mode="2">
+  <scroll-view class="abs-view top0 bottom100" scroll-y>
+    <content-block>
       <view class="block-head">
         <view>送货单号：12564846513</view>
         <view>送货日期：2018-01-01</view>

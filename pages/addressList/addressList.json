@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "收货地址管理",
+  "usingComponents": {
+    "content-block": "/components/contentBlock/contentBlock"
+  }
+}

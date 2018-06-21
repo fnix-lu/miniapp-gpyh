@@ -1,0 +1,33 @@
+<!--pages/avoidMsgCode/avoidMsgCode.wxml-->
+<scroll-view class="container bc-white" scroll-y>
+  <view>
+    <content-block mode="2">
+      <menu-list />
+    </content-block>
+    <button class="btn btn-primary" style="margin: 20rpx 70rpx;">下一步</button>
+  </view>
+  <view style="padding: 55rpx 70rpx;">
+    <view class="input-box">
+      <input class="input" type="text" disabled value="15600001111" />
+    </view>
+    <view class="error"></view>
+    <view class="input-box">
+      <input class="input" type="text" placeholder="计算值" />
+      <image class="calc-code" src="/assets/img/base/gpyh.png" />
+    </view>
+    <view class="error"></view>
+    <view class="input-box">
+      <input class="input" type="text" placeholder="短信验证码" />
+      <view class="split"></view>
+      <button class="msg-code">获取验证码</button>
+    </view>
+    <view class="error"></view>
+    <view class="input-box">
+      <input class="input" type="text" placeholder="输入支付密码" />
+    </view>
+    <view class="error"></view>
+    <view class="center">点击开通免验支付，</view>
+    <view class="center m10-y">表示您同意《工品一号预付款免短信验证支付协议》</view>
+    <button class="btn btn-primary m30-y">开通免验支付</button>
+  </view>
+</scroll-view>

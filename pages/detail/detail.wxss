@@ -1,6 +1,5 @@
 /* pages/detail/detail.wxss */
 .detail-swiper {
-  background: red;
   height: 750rpx;
 }
 .slider-img {
@@ -50,11 +49,6 @@
 
 .footbar-aside-item {
   flex: 1;
-}
-
-
-.add-to-cart-scroll {
-  height: 830rpx;
 }
 
 

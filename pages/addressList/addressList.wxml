@@ -1,0 +1,52 @@
+<!--pages/addressList/addressList.wxml-->
+<scroll-view class="container">
+  <content-block>
+    <view class="block-body p20">
+      <view class="contact">
+        <text>联系人</text>
+        <text>15600001111</text>
+      </view>
+      <view class="address-detail">详细地址详细地址详细地址详细地址详细地址详细地址详细地址详细地址详细地址详细地址</view>
+    </view>
+    <view class="block-foot">
+      <view class="f-middle blue">
+        <image class="i24" src="/assets/img/base/check_active.png" />
+        <text>默认地址</text>
+      </view>
+      <view class="f-middle">
+        <view class="f-middle" style="margin-right: 40rpx;">
+          <text>编辑</text>
+        </view>
+        <view class="f-middle">
+          <text>删除</text>
+        </view>
+      </view>
+    </view>
+  </content-block>
+  <content-block>
+    <view class="block-body p20">
+      <view class="contact">
+        <text>联系人</text>
+        <text>15600001111</text>
+      </view>
+      <view class="address-detail">详细地址详细地址详细地址详细地址详细地址详细地址详细地址详细地址详细地址详细地址</view>
+    </view>
+    <view class="block-foot">
+      <view class="f-middle">
+        <image class="i24" src="/assets/img/base/check_default.png" />
+        <text>设为默认</text>
+      </view>
+      <view class="f-middle">
+        <view class="f-middle" style="margin-right: 40rpx;">
+          <text>编辑</text>
+        </view>
+        <view class="f-middle">
+          <text>删除</text>
+        </view>
+      </view>
+    </view>
+  </content-block>
+  <view class="footbar">
+    <button class="btn btn-primary m20-x" style="flex: 1">添加新地址</button>
+  </view>
+</scroll-view>

@@ -119,10 +119,10 @@
   <!-- end 底栏 -->
 </scroll-view>
 
-<view class="modal-shadow" hidden="{{ true }}"></view>
+<view class="modal-shadow" hidden="{{ false }}"></view>
 
-<view class="modal side-bottom" hidden="{{ true }}">
-  <scroll-view class="add-to-cart-scroll" scroll-y>
+<view class="modal side-bottom" hidden="{{ false }}">
+  <scroll-view class="abs-view top0 bottom100" scroll-y>
     <view class="main-info p20-x">
       <view class="imgbox">
         <image class="goods-img" src="/assets/img/base/gpyh.png" />
@@ -165,5 +165,7 @@
     </view>
     <view class="right p20-x">嘉兴自营仓商品，未满整箱需要收取拆箱费￥5元/次</view>
   </scroll-view>
-  <button class="btn btn-primary m20-x">确认</button>
+  <view class="footbar">
+    <button class="btn btn-primary m20-x" style="flex: 1">确认</button>
+  </view>
 </view>

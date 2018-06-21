@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "企业设置",
+  "usingComponents": {
+    "menu-list": "/components/menuList/menuList",
+    "content-block": "/components/contentBlock/contentBlock"
+  }
+}

@@ -17,3 +17,53 @@
 .info-item {
   flex: 1 50%;
 }
+
+
+.layer-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20rpx;
+}
+.layer-item {
+  background: #eee;
+  width: 344rpx;
+  height: 70rpx;
+  margin-bottom: 16rpx;
+  border-radius: 12rpx;
+  border: 1rpx solid #eee;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.layer-item-on {
+  border-color: #0068b7;
+  background: #eff4fa;
+}
+.selected-icon {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+
+.layer-item-time {
+  width: 228rpx;
+}
+.picker-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.picker-date {
+  width: 336rpx;
+  background: #eee;
+  text-align: center;
+  height: 70rpx;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 12rpx;
+}

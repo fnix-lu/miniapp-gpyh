@@ -17,18 +17,150 @@
     </view>
   </view>
   <view hidden="{{ status != 1 }}">
-    <view class="filter-bar {{ false ? 'raise' : '' }}">
-      <filter-layer style="flex: 1" />
-      <filter-layer style="flex: 1" />
-      <filter-layer style="flex: 1" />
-      <filter-layer style="flex: 1" />
+    <view class="filter-bar {{ true ? 'raise' : '' }}">
+      <filter-layer style="flex: 1"></filter-layer>
+      <filter-layer style="flex: 1"></filter-layer>
+      <filter-layer style="flex: 1"></filter-layer>
+      <filter-layer style="flex: 1">
+        <view class="layer-list">
+          <view class="layer-item">
+            <text>PA66+50%玻纤</text>
+            <image class="i44 selected-icon" src="/assets/img/base/selected.png" />
+          </view>
+          <view class="layer-item">
+            <text>PA66+50%玻纤</text>
+            <image class="i44 selected-icon" src="/assets/img/base/selected.png" />
+          </view>
+          <view class="layer-item layer-item-on">
+            <text>PA66+50%玻纤</text>
+            <image class="i44 selected-icon" src="/assets/img/base/selected.png" />
+          </view>
+          <view class="layer-item">
+            <text>PA66+50%玻纤</text>
+          </view>
+          <view class="layer-item">
+            <text>PA66+50%玻纤</text>
+          </view>
+          <view class="layer-item">
+            <text>PA66+50%玻纤</text>
+          </view>
+          <view class="layer-item">
+            <text>PA66+50%玻纤</text>
+          </view>
+          <view class="layer-item">
+            <text>PA66+50%玻纤</text>
+          </view>
+          <view class="layer-item">
+            <text>PA66+50%玻纤</text>
+          </view>
+          <view class="layer-item">
+            <text>PA66+50%玻纤</text>
+          </view>
+          <view class="layer-item">
+            <text>PA66+50%玻纤</text>
+          </view>
+          <view class="layer-item">
+            <text>PA66+50%玻纤</text>
+          </view>
+          <view class="layer-item layer-item-on">
+            <text>PA66+50%玻纤</text>
+            <image class="i44 selected-icon" src="/assets/img/base/selected.png" />
+          </view>
+          <view class="layer-item">
+            <text>PA66+50%玻纤</text>
+          </view>
+          <view class="layer-item">
+            <text>PA66+50%玻纤</text>
+          </view>
+          <view class="layer-item">
+            <text>PA66+50%玻纤</text>
+          </view>
+          <view class="layer-item">
+            <text>PA66+50%玻纤</text>
+          </view>
+          <view class="layer-item">
+            <text>PA66+50%玻纤</text>
+          </view>
+          <view class="layer-item">
+            <text>PA66+50%玻纤</text>
+          </view>
+          <view class="layer-item">
+            <text>PA66+50%玻纤</text>
+          </view>
+          <view class="layer-item">
+            <text>PA66+50%玻纤</text>
+          </view>
+          <view class="layer-item">
+            <text>PA66+50%玻纤</text>
+          </view>
+          <view class="layer-item layer-item-on">
+            <text>PA66+50%玻纤</text>
+            <image class="i44 selected-icon" src="/assets/img/base/selected.png" />
+          </view>
+          <view class="layer-item">
+            <text>PA66+50%玻纤</text>
+          </view>
+          <view class="layer-item">
+            <text>PA66+50%玻纤</text>
+          </view>
+          <view class="layer-item">
+            <text>PA66+50%玻纤</text>
+          </view>
+          <view class="layer-item">
+            <text>PA66+50%玻纤</text>
+          </view>
+          <view class="layer-item">
+            <text>PA66+50%玻纤</text>
+          </view>
+          <view class="layer-item">
+            <text>PA66+50%玻纤</text>
+          </view>
+          <view class="layer-item">
+            <text>PA66+50%玻纤</text>
+          </view>
+          <view class="layer-item">
+            <text>PA66+50%玻纤</text>
+          </view>
+          <view class="layer-item">
+            <text>PA66+50%玻纤</text>
+          </view>
+          <view class="layer-item layer-item-on">
+            <text>PA66+50%玻纤</text>
+            <image class="i44 selected-icon" src="/assets/img/base/selected.png" />
+          </view>
+          <view class="layer-item">
+            <text>PA66+50%玻纤</text>
+          </view>
+          <view class="layer-item">
+            <text>PA66+50%玻纤</text>
+          </view>
+          <view class="layer-item">
+            <text>PA66+50%玻纤</text>
+          </view>
+          <view class="layer-item">
+            <text>PA66+50%玻纤</text>
+          </view>
+          <view class="layer-item">
+            <text>PA66+50%玻纤</text>
+          </view>
+          <view class="layer-item">
+            <text>PA66+50%玻纤</text>
+          </view>
+          <view class="layer-item">
+            <text>PA66+50%玻纤</text>
+          </view>
+          <view class="layer-item">
+            <text>PA66+50%玻纤</text>
+          </view>
+        </view>
+      </filter-layer>
     </view>
     <!-- 商品列表 -->
     <goods-list />
   </view>
 </scroll-view>
 
-<view class="modal-shadow" hidden="{{ true }}"></view>
+<view class="modal-shadow" hidden="{{ false }}"></view>
 
 <view class="modal side-right" hidden="{{ true }}">
   <scroll-view class="side-right-scroll" scroll-y>
@@ -207,7 +339,7 @@
       </view>
     </view>
   </scroll-view>
-  <view class="side-right-btns">
+  <view class="footbtns">
     <view class="side-right-btn btn btn-default">重置</view>
     <view class="side-right-btn btn btn-primary">确认</view>
   </view>

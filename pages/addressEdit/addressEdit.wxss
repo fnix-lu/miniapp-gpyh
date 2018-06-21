@@ -1,0 +1,14 @@
+/* pages/addressEdit/addressEdit.wxss */
+.options {
+  display: flex;
+  justify-content: flex-end;
+}
+.options-item {
+  margin-left: 60rpx;
+}
+.i24 {
+  margin-right: 10rpx;
+}
+.btn-primary {
+  margin-top: 100rpx;
+}

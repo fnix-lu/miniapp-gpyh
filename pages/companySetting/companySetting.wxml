@@ -1,0 +1,7 @@
+<!--pages/companySetting/companySetting.wxml-->
+<scroll-view class="container bc-white" scroll-y>
+  <content-block mode="2">
+    <menu-list />
+  </content-block>
+  <button class="btn btn-primary m20">保存</button>
+</scroll-view>

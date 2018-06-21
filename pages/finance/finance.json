@@ -1,6 +1,7 @@
 {
   "navigationBarTitleText": "财务中心",
   "usingComponents": {
-    "menu-list": "/components/menuList/menuList"
+    "menu-list": "/components/menuList/menuList",
+    "content-block": "/components/contentBlock/contentBlock"
   }
 }

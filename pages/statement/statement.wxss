@@ -5,10 +5,3 @@
   bottom: 20rpx;
   height: 60rpx;
 }
-.main-scroll {
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 100rpx;
-}
