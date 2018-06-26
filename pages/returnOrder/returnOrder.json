@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "退货单",
+  "usingComponents": {
+    "content-block": "/components/contentBlock/contentBlock"
+  }
+}

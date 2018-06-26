@@ -1,0 +1,66 @@
+<!--pages/returnOrderDetail/returnOrderDetail.wxml-->
+<scroll-view class="container">
+  <scroll-view class="abs-view top0 bottom100" scroll-y>
+    <content-block>
+      <view class="block-head">
+        <text class="bold f28">等待审核</text>
+      </view>
+      <view class="block-body p20-x">
+        <view class="return-address p20-y">
+          退货地址：姓名，15600001111，详细地址详细地址详细地址详细地址详细地址详细地址详细地址详细地址详细地址详细地址详细地址
+        </view>
+        <view class="return-tip gray p20-y">
+          <view>审核通过后，请退货给商家</view>
+          <view>若审核不通过，将关闭退货单，您可重新提交申请</view>
+        </view>
+      </view>
+    </content-block>
+    <content-block>
+      <menu-list />
+      <!-- 商品项 -->
+      <view class="goods-item p20">
+        <!-- 图片 -->
+        <view class="goods-imgbox">
+          <image class="goods-img" src="/assets/img/base/gpyh.png" />
+        </view>
+        <!-- 信息 -->
+        <view class="goods-infobox">
+          <view>316 DIN7504K M6*50 洗白 THE 六角法兰面钻尾螺钉</view>
+          <view class="gray">规格：15件套微型螺丝刀组套A</view>
+        </view>
+        <!-- 价格数量 -->
+        <view class="goods-pricebox right">
+          <view class="bold">￥2488.00</view>
+          <view class="gray f22">x0.5千支</view>
+        </view>
+      </view>
+      <!-- 商品项 -->
+      <view class="goods-item p20 goods-item-last">
+        <!-- 图片 -->
+        <view class="goods-imgbox">
+          <image class="goods-img" src="/assets/img/base/gpyh.png" />
+        </view>
+        <!-- 信息 -->
+        <view class="goods-infobox">
+          <view>316 DIN7504K M6*50 洗白 THE 六角法兰面钻尾螺钉</view>
+          <view class="gray">规格：15件套微型螺丝刀组套A</view>
+        </view>
+        <!-- 价格数量 -->
+        <view class="goods-pricebox right">
+          <view class="bold">￥2488.00</view>
+          <view class="gray f22">x0.5千支</view>
+        </view>
+      </view>
+    </content-block>
+    <content-block>
+      <view class="p20-x p10-y">
+        <view class="m10-y">申请时间：2018-01-01 00:00:00</view>
+        <view class="m10-y">退货原因：质量问题</view>
+        <view class="m10-y">退货凭证：</view>
+      </view>
+    </content-block>
+  </scroll-view>
+  <view class="footbar p20-x">
+    <button class="btn btn-primary cancel-return">取消退货</button>
+  </view>
+</scroll-view>

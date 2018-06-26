@@ -1,5 +1,5 @@
 <!--pages/returnApply/returnApply.wxml-->
-<scroll-view class="container">
+<scroll-view class="container" scroll-y>
   <content-block>
     <view class="block-head">
       <text>退货商品</text>
@@ -22,11 +22,48 @@
               <view>套</view>
             </view>
           </view>
-          <view>
+          <view class="goods-pricerow">
             <text class="gray">单价：￥2488.00</text>
+            <text class="orange f28">￥2488.00</text>
+          </view>
+        </view>
+      </view>
+      <!-- 商品项 -->
+      <view class="goods-item p20 goods-item-last">
+        <!-- 图片 -->
+        <view class="goods-imgbox">
+          <image class="goods-img" src="/assets/img/base/gpyh.png" />
+        </view>
+        <!-- 信息 -->
+        <view class="goods-infobox">
+          <view>316 DIN7504K M6*50 洗白 THE 六角法兰面钻尾螺钉</view>
+          <view>
+            <view class="amount-box">
+              <view class="change-amount f28">-</view>
+              <input class="amount" type="digit" value="1" />
+              <view class="change-amount f28">+</view>
+              <view>套</view>
+            </view>
+          </view>
+          <view class="goods-pricerow">
+            <text class="gray">单价：￥2488.00</text>
+            <text class="orange f28">￥2488.00</text>
           </view>
         </view>
       </view>
     </view>
   </content-block>
+  <content-block>
+    <menu-list />
+    <view style="padding: 0 15rpx;">
+      <view class="return-explain">
+        <view>退货说明</view>
+        <textarea class="return-explain-val m20-y" placeholder="可在此处补充退款说明"></textarea>
+        <view>
+          选择图片
+        </view>
+      </view>
+    </view>
+  </content-block>
+  <button class="btn btn-primary m20">确定</button>
 </scroll-view>

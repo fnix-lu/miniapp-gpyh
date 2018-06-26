@@ -8,17 +8,18 @@
       </view>
       <view class="info-block">
         <view class="head-imgbox">
-          <image class="head-img" src="../../assets/img/base/gpyh.png" />
-          <navigator class="info-member">开通畅购会员</navigator>
+          <image class="head-img" src="{{ mine.customerInfoBo.headImageUrl }}" />
+          <navigator class="info-member" wx:if="{{ mine.effectiveMember }}">您是畅购会员</navigator>
+          <navigator class="info-member" wx:else>开通畅购会员</navigator>
         </view>
         <view class="info-txtbox">
-          <view class="info-username">UserName</view>
+          <view class="info-username">{{ mine.customerInfoBo.shortName }}</view>
           <view>
-            <view class="info-item"><image class="i24" src="../../assets/img/mine/phone.png" />15600000001</view>
+            <view class="info-item"><image class="i24" src="../../assets/img/mine/phone.png" />{{ mine.customerInfoBo.phone }}</view>
           </view>
           <view class="info-row">
             <view class="info-item"><image class="i24" src="../../assets/img/mine/medal.png" />铜牌</view>
-            <view class="info-item" style="margin-left: 35rpx;">成长值：9999999</view>
+            <view class="info-item" style="margin-left: 35rpx;">成长值：{{ mine.customerInfoBo.growthValue }}</view>
           </view>
         </view>
         <view class="other">
@@ -35,15 +36,15 @@
     <content-block mode="4">
       <view class="datainfo">
         <navigator class="datainfo-item">
-          <view>199</view>
+          <view>{{ mine.customerCollectionCount }}</view>
           <view>我的收藏</view>
         </navigator>
         <navigator class="datainfo-item">
-          <view>199</view>
+          <view>{{ mine.customerFollowCount }}</view>
           <view>我的非标</view>
         </navigator>
         <navigator class="datainfo-item">
-          <view>999999.99</view>
+          <view>{{ mine.balanceAmount }}</view>
           <view>我的预付款</view>
         </navigator>
       </view>

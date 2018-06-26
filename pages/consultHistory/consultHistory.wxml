@@ -1,0 +1,83 @@
+<!--pages/consultHistory/consultHistory.wxml-->
+<scroll-view class="container" scroll-y>
+  <content-block>
+    <view class="p20">
+      <view class="consult-item-up">
+        <image class="main-img" src="/assets/img/base/gpyh.png" />
+        <view class="lh-1-5">
+          <view class="f28">张三</view>
+          <view class="gray">2018-01-01 00:00:00</view>
+        </view>
+      </view>
+      <view class="m10-y">
+        买家（xxx）于2018-01-01 00:00:00填写物流信息
+      </view>
+      <view>
+        <view class="m10-y">退款原因：产品质量问题</view>
+        <view class="m10-y">退款金额：￥9999.99</view>
+        <view class="m10-y">退款说明：退款说明退款说明退款说明退款说明退</view>
+        <view class="m10-y">退款凭证：</view>
+      </view>
+    </view>
+  </content-block>
+  <content-block>
+    <view class="p20">
+      <view class="consult-item-up">
+        <image class="main-img" src="/assets/img/base/gpyh.png" />
+        <view class="lh-1-5">
+          <view class="f28">张三</view>
+          <view class="gray">2018-01-01 00:00:00</view>
+        </view>
+      </view>
+      <view class="m10-y">
+        买家（xxx）于2018-01-01 00:00:00填写物流信息
+      </view>
+      <view>
+        <view class="m10-y">退款原因：产品质量问题</view>
+        <view class="m10-y">退款金额：￥9999.99</view>
+        <view class="m10-y">退款说明：退款说明退款说明退款说明退款说明退</view>
+        <view class="m10-y">退款凭证：</view>
+      </view>
+    </view>
+  </content-block>
+  <content-block>
+    <view class="p20">
+      <view class="consult-item-up">
+        <image class="main-img" src="/assets/img/base/gpyh.png" />
+        <view class="lh-1-5">
+          <view class="f28">张三</view>
+          <view class="gray">2018-01-01 00:00:00</view>
+        </view>
+      </view>
+      <view class="m10-y">
+        买家（xxx）于2018-01-01 00:00:00填写物流信息
+      </view>
+      <view>
+        <view class="m10-y">退款原因：产品质量问题</view>
+        <view class="m10-y">退款金额：￥9999.99</view>
+        <view class="m10-y">退款说明：退款说明退款说明退款说明退款说明退</view>
+        <view class="m10-y">退款凭证：</view>
+      </view>
+    </view>
+  </content-block>
+  <content-block>
+    <view class="p20">
+      <view class="consult-item-up">
+        <image class="main-img" src="/assets/img/base/gpyh.png" />
+        <view class="lh-1-5">
+          <view class="f28">张三</view>
+          <view class="gray">2018-01-01 00:00:00</view>
+        </view>
+      </view>
+      <view class="m10-y">
+        买家（xxx）于2018-01-01 00:00:00填写物流信息
+      </view>
+      <view>
+        <view class="m10-y">退款原因：产品质量问题</view>
+        <view class="m10-y">退款金额：￥9999.99</view>
+        <view class="m10-y">退款说明：退款说明退款说明退款说明退款说明退</view>
+        <view class="m10-y">退款凭证：</view>
+      </view>
+    </view>
+  </content-block>
+</scroll-view>

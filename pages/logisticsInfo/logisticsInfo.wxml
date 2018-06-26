@@ -1,0 +1,30 @@
+<!--pages/logisticsInfo/logisticsInfo.wxml-->
+<scroll-view class="container" scroll-y>
+  <content-block>
+    <view class="p20-x p10-y">
+      <view class="m10-y">物流公司：中通快递</view>
+      <view class="m10-y">物流单号：0000000000000000</view>
+      <view class="m10-y">送货单号：1111111111111111</view>
+    </view>
+  </content-block>
+  <!-- 物流进度 -->
+  <content-block>
+    <view class="block-head">
+      <text class="bold">物流信息</text>
+    </view>
+    <view class="block-body p20">
+      <view class="logistics-step lh-1-5">
+        <view>【苏州市】物流信息物流信息物流信息物流信息物流信息物流信息物流信息</view>
+        <view class="m10-y gray">2018-01-01 00:00:00</view>
+      </view>
+      <view class="logistics-step lh-1-5">
+        <view>【苏州市】物流信息物流信息物流信息物流信息物流信息物流信息物流信息</view>
+        <view class="m10-y gray">2018-01-01 00:00:00</view>
+      </view>
+      <view class="logistics-step lh-1-5 logistics-step-last">
+        <view>【苏州市】物流信息物流信息物流信息物流信息物流信息物流信息物流信息</view>
+        <view class="m10-y gray">2018-01-01 00:00:00</view>
+      </view>
+    </view>
+  </content-block>
+</scroll-view>

@@ -1,0 +1,104 @@
+<!--pages/returnOrder/returnOrder.wxml-->
+<scroll-view class="container">
+  <view class="tabs bc-white">
+    <text class="tabs-item tabs-item-on">全部退货单</text>
+    <text class="tabs-item">退货中</text>
+    <text class="tabs-item">已退货</text>
+  </view>
+  <scroll-view class="abs-view top80 bottom0" scroll-y>
+    <content-block>
+      <view class="block-head">
+        <text>退货单号：00000000000</text>
+      </view>
+      <view class="block-body">
+        <!-- 商品项 -->
+        <view class="goods-item p20">
+          <!-- 图片 -->
+          <view class="goods-imgbox">
+            <image class="goods-img" src="/assets/img/base/gpyh.png" />
+          </view>
+          <!-- 信息 -->
+          <view class="goods-infobox">
+            <view>316 DIN7504K M6*50 洗白 THE 六角法兰面钻尾螺钉</view>
+            <view class="gray">规格：15件套微型螺丝刀组套A</view>
+          </view>
+          <!-- 价格数量 -->
+          <view class="goods-pricebox right">
+            <view class="bold">￥2488.00</view>
+            <view class="gray f22">x0.5千支</view>
+          </view>
+        </view>
+        <!-- 商品项 -->
+        <view class="goods-item p20 goods-item-last">
+          <!-- 图片 -->
+          <view class="goods-imgbox">
+            <image class="goods-img" src="/assets/img/base/gpyh.png" />
+          </view>
+          <!-- 信息 -->
+          <view class="goods-infobox">
+            <view>316 DIN7504K M6*50 洗白 THE 六角法兰面钻尾螺钉</view>
+            <view class="gray">规格：15件套微型螺丝刀组套A</view>
+          </view>
+          <!-- 价格数量 -->
+          <view class="goods-pricebox right">
+            <view class="bold">￥2488.00</view>
+            <view class="gray f22">x0.5千支</view>
+          </view>
+        </view>
+      </view>
+      <view class="block-foot">
+        <text class="orange">退货成功</text>
+        <view>
+          <button class="btn btn-primary to-detail">查看详情</button>
+        </view>
+      </view>
+    </content-block>
+    <content-block>
+      <view class="block-head">
+        <text>退货单号：00000000000</text>
+      </view>
+      <view class="block-body">
+        <!-- 商品项 -->
+        <view class="goods-item p20">
+          <!-- 图片 -->
+          <view class="goods-imgbox">
+            <image class="goods-img" src="/assets/img/base/gpyh.png" />
+          </view>
+          <!-- 信息 -->
+          <view class="goods-infobox">
+            <view>316 DIN7504K M6*50 洗白 THE 六角法兰面钻尾螺钉</view>
+            <view class="gray">规格：15件套微型螺丝刀组套A</view>
+          </view>
+          <!-- 价格数量 -->
+          <view class="goods-pricebox right">
+            <view class="bold">￥2488.00</view>
+            <view class="gray f22">x0.5千支</view>
+          </view>
+        </view>
+        <!-- 商品项 -->
+        <view class="goods-item p20 goods-item-last">
+          <!-- 图片 -->
+          <view class="goods-imgbox">
+            <image class="goods-img" src="/assets/img/base/gpyh.png" />
+          </view>
+          <!-- 信息 -->
+          <view class="goods-infobox">
+            <view>316 DIN7504K M6*50 洗白 THE 六角法兰面钻尾螺钉</view>
+            <view class="gray">规格：15件套微型螺丝刀组套A</view>
+          </view>
+          <!-- 价格数量 -->
+          <view class="goods-pricebox right">
+            <view class="bold">￥2488.00</view>
+            <view class="gray f22">x0.5千支</view>
+          </view>
+        </view>
+      </view>
+      <view class="block-foot">
+        <text class="orange">退货成功</text>
+        <view>
+          <button class="btn btn-primary to-detail">查看详情</button>
+        </view>
+      </view>
+    </content-block>
+  </scroll-view>
+</scroll-view>

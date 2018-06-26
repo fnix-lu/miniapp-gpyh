@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "协商历史",
+  "usingComponents": {
+    "content-block": "/components/contentBlock/contentBlock"
+  }
+}

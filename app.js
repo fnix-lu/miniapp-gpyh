@@ -4,7 +4,7 @@ App({
    * 当小程序初始化完成时，会触发 onLaunch（全局只触发一次）
    */
   onLaunch: function () {
-    console.log(wx.getStorageSync('userInfo'));
+    // console.log([] instanceof Array);
   },
 
   /**
@@ -26,24 +26,5 @@ App({
    */
   onError: function (msg) {
     
-  },
-
-  /**
-   * 全局变量
-   */
-  globalData: {
-    rootUrl: 'http://192.168.1.30:8101'
-  },
-
-  /**
-   * 全局函数
-   */
-  globalFunc: {
-    calcExtraItem: function (total, col) {
-      if (total % col === 0) {
-        return 0;
-      }
-      return col - total % col;
-    }
   }
 })

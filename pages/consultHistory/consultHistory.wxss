@@ -1,0 +1,10 @@
+/* pages/consultHistory/consultHistory.wxss */
+.consult-item-up {
+  display: flex;
+}
+.main-img {
+  width: 100rpx;
+  height: 100rpx;
+  background: #ccc;
+  margin-right: 20rpx;
+}

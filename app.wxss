@@ -32,6 +32,10 @@
 .f22 { font-size: 22rpx; }
 .f28 { font-size: 28rpx; }
 
+.lh-1-5 { line-height: 1.5; }
+.lh-2-0 { line-height: 2.0; }
+
+
 /* 颜色 */
 .bc-white { background-color: #fff; }
 

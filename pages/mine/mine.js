@@ -1,10 +1,14 @@
+var app = getApp(),
+    services = require('../../services/services.js');
+
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-    userInfo: wx.getStorageSync('userInfo'),
+    userInfo: null,
+    mine: null,
     menuOrder: {
       column: 5,
       title: '我的订单',
@@ -17,16 +21,17 @@ Page({
           text: '待付款',
           icon: '../../assets/img/mine/m1.png',
           url: '',
-          badge: 99
+          badge: 0
         }, {
           text: '待发货',
           icon: '../../assets/img/mine/m2.png',
-          url: ''
+          url: '',
+          badge: 0
         }, {
           text: '已发货',
           icon: '../../assets/img/mine/m3.png',
           url: '',
-          badge: 1
+          badge: 0
         }, {
           text: '退款/售后',
           icon: '../../assets/img/mine/m4.png',
@@ -71,20 +76,19 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    var _this = this, app = getApp();
-    
-    var userInfo = wx.getStorageSync('userInfo');
+    var _this = this;
 
-    wx.request({
-      url: app.globalData.rootUrl + '/PersonalCenter/getCustomerInfoCenterData',
-      method: 'GET',
-      header: {
-        'accessToken': userInfo.userName + ':' + userInfo.token.accessToken
-      },
-      success: function (res) {
-        console.log(res);
+    services.getUserCenter(function (res) {
+      console.log(res.data);
+      if (res.data.resultCode === '0') {
+        _this.setData({
+          mine: res.data.resultData,
+          'menuOrder.list[0].badge': res.data.resultData.waitPayCount,
+          'menuOrder.list[1].badge': res.data.resultData.waitDeliveryCount,
+          'menuOrder.list[2].badge': res.data.resultData.deliveryCount
+        });
       }
-    })
+    });
   },
 
   /**
@@ -98,7 +102,11 @@ Page({
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-    
+    var _this = this;
+
+    _this.setData({
+      userInfo: wx.getStorageSync('userInfo')
+    });
   },
 
   /**

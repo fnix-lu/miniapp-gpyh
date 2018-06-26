@@ -28,6 +28,5 @@ Component({
     this.setData({
       modeClass: 'mode' + this.data.mode
     });
-    console.log(this.data);
   }
 })

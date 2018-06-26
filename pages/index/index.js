@@ -1,4 +1,8 @@
 // pages/index/index.js
+var app = getApp(),
+    services = require('../../services/services.js'),
+    utils = require('../../utils/utils.js');
+
 Page({
 
   /**
@@ -21,26 +25,18 @@ Page({
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
-    var _this = this,
-        app = getApp();
-        
-    var rootUrl = app.globalData.rootUrl,
-        calcExtraItem = app.globalFunc.calcExtraItem;
+    var _this = this;
 
-    wx.request({
-      url: app.globalData.rootUrl + '/index/mall',
-      method: 'GET',
-      success: function (res) {
-        _this.setData({
-          bannerList: res.data.resultData.bannerList,
-          articleList: res.data.resultData.articleList,
-          'tool.category': res.data.resultData.mainCategoryBo.toolCategories,
-          'tool.extra': calcExtraItem(res.data.resultData.mainCategoryBo.toolCategories.length, 3),
-          'fastener.category': res.data.resultData.mainCategoryBo.fastenerCategories,
-          'fastener.extra': calcExtraItem(res.data.resultData.mainCategoryBo.fastenerCategories.length, 3),
-        });
-      }
-    });
+    services.getIndexPage(function (res) {
+      _this.setData({
+        bannerList: res.data.resultData.bannerList,
+        articleList: res.data.resultData.articleList,
+        'tool.category': res.data.resultData.mainCategoryBo.toolCategories,
+        'tool.extra': utils.calcExtraItem(res.data.resultData.mainCategoryBo.toolCategories.length, 3),
+        'fastener.category': res.data.resultData.mainCategoryBo.fastenerCategories,
+        'fastener.extra': utils.calcExtraItem(res.data.resultData.mainCategoryBo.fastenerCategories.length, 3)
+      })
+    })
   },
 
   /**

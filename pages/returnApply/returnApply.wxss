@@ -32,6 +32,7 @@
 
 .amount-box {
   display: flex;
+  justify-content: flex-end;
   align-items: center;
 }
 .change-amount {
@@ -41,10 +42,33 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  margin: 0 10rpx;
 }
 .amount {
   width: 80rpx;
+  height: 40rpx;
+  min-height: 40rpx;
   text-align: center;
   background: #eee;
-  margin: 0 10rpx;
+  display: flex;
+  align-items: center;
+}
+
+.goods-pricerow {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+.return-explain {
+  border-top: 1rpx solid #ccc;
+  padding:24rpx 15rpx 24rpx 30rpx;
+}
+.return-explain-val {
+  border: 1rpx solid #ccc;
+  border-radius: 8rpx;
+  width: 98%;
+  height: 120rpx;
+  padding: 20rpx 30rpx;
+  box-sizing: border-box;
 }
